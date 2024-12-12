@@ -2,7 +2,8 @@
   <div class="min-h-screen bg-gradient-to-b core-ui">
     <div class="relative">
       <div class="absolute inset-0 overflow-hidden">
-        <NuxtImg src="/images/chi.jpg" alt="Hero Background" class="w-full h-full object-cover" height="200" width="800" loading="eager" />
+        <NuxtImg src="/images/chi.jpg" alt="Hero Background" class="w-full h-full object-cover" height="200" width="800"
+          loading="eager" />
       </div>
       <div class="relative max-w-7xl mx-auto px-4 py-24 text-center">
         <div class="bg-white dark:bg-black rounded-xl p-8 inline-block">
@@ -20,6 +21,7 @@
         <div class="relative flex items-center text-inherit">
           <Icon name="ri:search-line" class="absolute left-3 h-5 w-5 text-gray-3" aria-hidden="true" />
           <input v-model="searchQuery" type="text" :placeholder="t('resources.search.placeholder')"
+            :aria-label="t('resources.search.placeholder')" role="searchbox" @touchstart.prevent
             class="w-full pl-10 pr-4 p4 rounded-lg focus:ring-none bg-white dark:bg-black focus:outline-none border-none text-dark1 dark:text-white" />
         </div>
         <p v-if="!filteredResources.length" class="text-center text-dark1 dark:text-white mt-4">
@@ -74,16 +76,9 @@ interface Resource {
   id: string;
   title: string;
   fullDescription: string;
-  color: string;
   icon: string;
-  categories: string[];
   links: Link[];
   reporting: Tool[];
-}
-
-interface Tab {
-  id: string;
-  label: string;
 }
 
 const { t } = useI18n();
@@ -92,9 +87,7 @@ const resources: Resource[] = [
     id: "01",
     title: t('resources.phishing'),
     fullDescription: t('resources.explain.phishing'),
-    color: "#0000FF",
     icon: "ri:shield-line",
-    categories: ["Detection", "Reporting", "Education"],
     links: [
       {
         name: "PhishTank",
@@ -134,9 +127,7 @@ const resources: Resource[] = [
     id: "02",
     title: t('resources.malware'),
     fullDescription: t('resources.explain.malware'),
-    color: "#FF0000",
     icon: "ri:bug-line",
-    categories: ["Analysis", "Prevention", "Removal"],
     links: [
       {
         name: "VirusTotal",
@@ -176,9 +167,7 @@ const resources: Resource[] = [
     id: "03",
     title: t('resources.network'),
     fullDescription: t('resources.explain.network'),
-    color: "#9333EA",
     icon: "ri:global-line",
-    categories: ["Monitoring", "Testing", "Protection"],
     links: [
       {
         name: "Wireshark",
