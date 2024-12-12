@@ -1,7 +1,7 @@
 ---
 title: "사례 연구: YouTube 홈페이지의 표적 피싱 사기"
 date: "2024-01-29"
-img: "/images/blog/PS/j2-cover-2.png"
+img: "/images/blog/PS/j2-cover-2.webp"
 description: "피싱 사기가 YouTube 홈페이지에 어떻게 홍보되어 탐지를 피하고 사용자에게 위험을 초래하는지 알아보세요."
 tag: "피싱"
 alt: "흑백 환경에서 강조된 빨간색 손을 보여주는 횡단보도 표지판 이미지"
@@ -14,25 +14,25 @@ feature: true
 
 다음은 사용자에게 표시되는 내용의 예입니다. 시크릿 브라우저 창에서 이를 열어 플랫폼의 신규 사용자와 활성 사용자에게 표시되고 있음을 보여줍니다.
 
-<Media source="/images/blog/PS/j2-1.png" alt="타겟 비디오 옆에 피싱 사기 스폰서 비디오를 표시하는 YouTube 홈 페이지"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-1.webp" alt="타겟 비디오 옆에 피싱 사기 스폰서 비디오를 표시하는 YouTube 홈 페이지"></Media>
 
 사기를 위한 완벽한 장소입니다. 일반적으로 이 광고는 임의의 동영상 옆에 표시되지만 오늘은 YouTube 광고의 현실에 대한 최후 통첩을 얻었습니다. Mr Beast의 최신 동영상 바로 옆에서 피싱 사기가 홍보되었습니다.
 
 이 동영상을 클릭하면 이 광고가 처음 노출된 후 "시청자로서 X 금액을 벌 수 있는 방법!"이라는 설명과 시청자에게 댓글 섹션을 안내하는 빠른 동작의 동영상이 제공됩니다.
 
-<Media source="/images/blog/PS/j2-3.png" alt="광고주에 대한 정보와 신고 또는 차단 옵션이 포함된 YouTube의 광고 신고 대화 상자"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-3.webp" alt="광고주에 대한 정보와 신고 또는 차단 옵션이 포함된 YouTube의 광고 신고 대화 상자"></Media>
 
 댓글의 고정 댓글이나 좋아요 댓글에는 피싱 사기라고 알려진 사용자 정보를 수집하도록 설계된 웹사이트에 대한 링크가 제공됩니다.
 
 웹사이트에는 사용자가 보상을 잠금 해제하거나 서비스에 가입하기 위해 정보를 입력해야 하는 외부 웹사이트로 연결되는 간단한 클릭 유도 버튼인 "지금 신청하세요"가 포함되어 있습니다.
 
-<Media source="/images/blog/PS/j2-5.png" alt="보상을 요구하는 클릭을 유도하는 클릭 유도 문구를 통해 사용자를 피싱하는 데 사용되는 도메인 미리보기"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-5.webp" alt="보상을 요구하는 클릭을 유도하는 클릭 유도 문구를 통해 사용자를 피싱하는 데 사용되는 도메인 미리보기"></Media>
 
 동영상은 미등록이므로 광고가 홍보되지 않는 한 공개적으로 표시되지 않습니다. 이렇게 하면 동영상을 지속적으로 삭제하고 다시 업로드할 수 있습니다. 댓글에도 동일하게 적용되며 기존 웹사이트가 삭제되고 새 웹사이트가 댓글에 나열됩니다.
 
 이는 동일한 비디오 썸네일, 동일한 비디오 및 유사한 웹사이트 디자인의 구조를 따르는 매우 오랜 시간 동안 발생했습니다. 이러한 사기를 조장하는 광고주는 YouTube의 광고주 플랫폼에서 확인되며 일반적으로 동일한 사람들입니다.
 
-<Media source="/images/blog/PS/j2-2.png" alt="광고주가 피싱 웹사이트 링크에 댓글을 다는 YouTube 댓글 섹션'"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-2.webp" alt="광고주가 피싱 웹사이트 링크에 댓글을 다는 YouTube 댓글 섹션'"></Media>
 
 Google의 투명성 서비스를 통해 광고주의 광고를 검토한 결과 사용자로부터 광고가 발견되지 않았습니다. 동영상을 호스팅하는 YouTube 채널은 종종 삭제되고 유사한 채널로 대체됩니다.
 
@@ -44,7 +44,7 @@ YouTube에서 외부 소스 링크를 클릭하면 YouTube 외부로 연결된�
 
 이 보고서를 작성하면서 우리는 또 다른 결과가 나타나는 것을 발견했습니다. 이 사기가 얼마나 지속적으로 복제되고 있는지 보여줍니다. 이는 Mr Beast 콘텐츠의 인구통계와 관련된 모든 지역 및 기타 대상 연령 그룹에서 발생할 가능성이 높습니다.
 
-<Media source="/images/blog/PS/j2-6.png" alt="첫 번째 위치에서 조장된 또 다른 피싱 사기를 보여주는 YouTube 홈 페이지."></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-6.webp" alt="첫 번째 위치에서 조장된 또 다른 피싱 사기를 보여주는 YouTube 홈 페이지."></Media>
 
 이러한 사기 또는 이와 유사한 사기를 신고하는 일반적인 절차는 다음과 같습니다.
 
@@ -65,7 +65,7 @@ Google과 같은 사이트에 신고하는 방식 <PageLink Link title="안전�
 
 우리가 일반적으로 야생에서 볼 수 있는 예는 다음과 같습니다.
 
-<Media source="/images/blog/PS/j2-4.png" alt="Youtube에서 발견된 피싱 URL에서 발견된 12개의 탐지를 표시하는 VirusTotal 웹사이트"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-4.webp" alt="Youtube에서 발견된 피싱 URL에서 발견된 12개의 탐지를 표시하는 VirusTotal 웹사이트"></Media>
 
 도메인을 보고할 때 가장 먼저 해야 할 일은 도메인의 <PageLink title="whois" url="https://whois.domaintools.com/"></PageLink>를 확인하는 것입니다. 이를 통해 도메인 공급자가 누구인지 알 수 있습니다. 그런 다음 학대 이메일 주소로 직접 신고할 수 있습니다.
 
@@ -73,7 +73,7 @@ Google과 같은 사이트에 신고하는 방식 <PageLink Link title="안전�
 
 이로 인해 상당히 감소했지만 일부는 여전히 YouTube의 스팸 봇 감지 시스템의 균열을 통과하고 있습니다. 우리가 보고 있는 이러한 유형의 사기는 매우 오랫동안 운영되어 거의 주목을 받지 못했을 가능성이 높습니다.
 
-피싱에 대한 일반적인 조언은 링크를 클릭하지 말고 로그인 정보나 이와 유사한 정보를 입력하지 않는 것입니다. 이것이 바로 사기의 목적입니다. 정보는 계정 탈취 등으로 이어질 것입니다. <PageLink title="2FA" url="https://xanzhu.com/blog/2fa-protect-against-phishing-scams"></PageLink>를 사용하여 더 나은 인증 방식을 구현하는 방법에 대해 자세히 알아보세요.
+피싱에 대한 일반적인 조언은 링크를 클릭하지 말고 로그인 정보나 이와 유사한 정보를 입력하지 않는 것입니다. 이것이 바로 사기의 목적입니다. 정보는 계정 탈취 등으로 이어질 것입니다. <PageLink title="2FA" url="/ko/blog/2fa-protect-against-phishing-scams"></PageLink>를 사용하여 더 나은 인증 방식을 구현하는 방법에 대해 자세히 알아보세요.
 
 이는 광고와 동영상을 신고하고 나열된 각 도메인을 직접 신고하는 전투가 계속되고 있습니다. 우리가 모든 것을 잡을 수 있다고 말하는 것은 비현실적입니다. 그러나 우리가 발견하는 것을 줄이려고 노력할 수는 있습니다.
 

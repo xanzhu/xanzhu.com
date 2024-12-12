@@ -1,0 +1,250 @@
+{
+  "Home": {
+    "title": "Privacy, Security and everything in between.",
+    "subhead": "Navigating Technology with confidence",
+    "desc": "At Xanzhu, we help you use technology safely and protect your data online. Learn from our articles, guides, and reviews on topics like VPNs, password managers, two-factor authentication, and more.",
+    "Seo": {
+      "title": "News, Guides on Technology, Privacy and Security",
+      "description": "Stay safe online with Xanzhu. Get the latest tech trends, security tips, and privacy guides to navigate the digital world."
+    },
+    "a11y": {
+      "mouseicon": "Scroll down"
+    },
+    "release": "New Releases",
+    "more": "Explore More Articles",
+    "tag": "Leading the future",
+    "weatherLoad": "Loading"
+  },
+  "Links": {
+    "resources": "Resources",
+    "blog": "Latest",
+    "analysis": "Analysis",
+    "home": "Home",
+    "privacy-policy": "Privacy Policy",
+    "reviews": "Reviews"
+  },
+  "PagesCard": {
+    "resources": "Security tools and links",
+    "blog": "Latest News, Guides on Technology",
+    "analysis": "Reports and write-ups on threats",
+    "image": {
+      "building-1": "two teal and white skyscrapers",
+      "building-2": "white concrete building during daytime",
+      "building-3": "tall building"
+    }
+  },
+  "Footer": "© Xanzhu 2024. All Rights reserved.",
+  "Error": {
+    "404": {
+      "title": "Page Not Found",
+      "desc": "Sorry, the page you are looking for could not be found.",
+      "code": "Code: 404"
+    },
+    "500": {
+      "title": "Internal Error",
+      "desc": "Sorry we messed up, please try again..",
+      "code": "Code: 500"
+    },
+    "return": "Return"
+  },
+  "StatsCard": {
+    "title": "Common Threats Observed in 2023",
+    "warn": "These are rough estimates, exact values may slightly differ. Obtained through research gathered in 2023",
+    "check": "Check your accounts",
+    "threats": {
+      "1": "PHISHING",
+      "2": "RANSOMWARE",
+      "3": "SOCIAL ENGINEERING",
+      "4": "DENIAL OF SERVICE (DoS)",
+      "title": "Top Security Threats"
+    },
+    "breaches": {
+      "title": "Recent Breaches"
+    },
+    "image": {
+      "pwn": "HaveIBeenpwnd Logo",
+      "badge": "Security Badge"
+    },
+    "breach": {
+      "1": "OPTUS - 9.8 MILLION",
+      "2": "LAST PASS - 30 MILLION",
+      "3": "TWITTER - 211.5 MILLION",
+      "4": "LATITUDE - 14 MILLION"
+    }
+  },
+  "a11y": {
+    "langSwitch": "Switch Language",
+    "oMenu": "Open Menu",
+    "cMenu": "Close Menu",
+    "logo": "Xanzhu Logo",
+    "ResourcePage": "Visit Resources Page",
+    "BlogPage": "Visit Blog Page",
+    "AnalysisPage": "Visit our Analysis Page",
+    "Menu": "Menu",
+    "Home": "Visit the Home page"
+  },
+  "SocialsCard": {
+    "h1": "Follow our Socials"
+  },
+  "Blog": {
+    "title": "Discover the Latest Insights",
+    "description": "News, guides and reviews on technology, how to use it and how to ensure your data remains is protected online.",
+    "toc": "Table of contents",
+    "next": "Next",
+    "previous": "Previous",
+    "read-time": "min read",
+    "source": "Source",
+    "updated": "Updated",
+    "meta": {
+      "title": "Latest Posts on Security and Technology News",
+      "description": "Xanzhu provides helpful articles, guides and tips on all things technology. Focusing on privacy, security and more."
+    },
+    "Video": "Video not found"
+  },
+  "Analysis": {
+    "h1": "Security Audits and Analysis",
+    "soon": "Uncovering vulnerabilities and offering recommendations for enhancing security measures."
+  },
+  "Alert": {
+    "feature": "Feature Preview",
+    "maintenance": "This page is currently under construction and may look a little different when it's finished.",
+    "view": "View latest version"
+  },
+  "app": {
+    "sr": {
+      "lang_select": "Selected Language: ",
+      "lang": "Select Language",
+      "menu": "Open Menu"
+    }
+  },
+  "email": {
+    "share": "Checkout this article"
+  },
+  "share": {
+    "twitter": "Share this on Twitter",
+    "reddit": "Share this on Reddit",
+    "linkedin": "Share this on LinkedIn",
+    "email": "Share this page via email",
+    "title": "Share this article!"
+  },
+  "About": {
+    "p1": "Cybersecurity is a crucial part of the internet and is a growing concern for many users and businesses. Attacks can strike at any moment, devastating individuals and organisations. That's why we created Xanzhu.",
+    "p2": "Our mission is to become a leading source for information and knowledge on security, privacy, and accessibility. ",
+    "p3": "We want to provide a space for technology lovers, as well as average consumers and business owners, to gain insight into how to protect themselves online.",
+    "p4": "Knowing how to protect yourself or your business is important. Privacy and security should be a top priority.",
+    "p5": "We are new and will likely make a few mistakes. But we're passionate about making the internet a safer place, and we hope you'll join us in developing the next standard of security practices and guidelines.",
+    "h1": "About Xanzhu.com",
+    "description": "Xanzhu.com - Your cybersecurity hub. Protecting you online with valuable insights on security, privacy, and accessibility. Join us!",
+    "title": "About"
+  },
+  "PP": {
+    "title": "Privacy Policy",
+    "description": "Review our privacy policy statement",
+    "section-one": "We value privacy and respect the privacy of those who visit our website. No identifiable information is stored or accessed without your permission to ensure that we do not infringe upon your privacy.",
+    "section-two": "Because our site contains links to third-party websites, we cannot prevent tracking outside of our domain.",
+    "section-three": "Usage data that your browser provides (User-Agent), includes IP addresses, browsers and devices used. This data is used for metrics and server communications.",
+    "date": "Modified"
+  },
+  "home": {
+    "latest": "RECENT POSTS",
+    "hero": {
+      "cta": "Start the Journey",
+      "subhead": "Explore trends, tools, and techniques driving technology forward—from safeguarding data to       redefining the       digital world.",
+      "heading": "Privacy and Security for the Modern Web",
+      "tagline": "Beyond Code and Innovation"
+    }
+  },
+  "resources": {
+    "hero": {
+      "title": "Security Toolkit",
+      "description": "Comprehensive collection of free security tools, educational resources, and reporting platforms to help protect your digital presence."
+    },
+    "quick_links": "Quick Links",
+    "reporting_tools": "Reporting Tools",
+    "search": {
+      "placeholder": "Search security resources",
+      "noResults": "Oops, we couldn't find anything, please try again."
+    },
+    "explain": {
+      "phishing": "Tools and resources to help identify, avoid, and report phishing attempts and suspicious websites.",
+      "network": "Essential tools for monitoring network traffic, detecting vulnerabilities, and securing your connections.",
+      "malware": "Free tools and platforms for analyzing suspicious files, detecting malware, and maintaining system security."
+    },
+    "phishing": "Phishing",
+    "malware": "Malware Analysis",
+    "network": "Network Security",
+    "reporting": {
+      "securityheaders": "Analyze a website’s HTTP security headers for vulnerabilities",
+      "shodan": "Search engine for discovering devices and systems exposed to the internet.",
+      "anyrun": "Interactive malware analysis tool for analyzing and sharing results in real time.",
+      "hybrid": "Free malware analysis platform for analyzing suspicious files and URLs",
+      "microsoft": "Microsoft’s platform for reporting phishing and malicious URLs",
+      "google": "Report suspicious websites to Google Safe Browsing for protection updates"
+    },
+    "tools": {
+      "snort": "Intrusion detection system for real-time traffic analysis and threat prevention.",
+      "owaspzap": "Open-source penetration testing tool for identifying web application vulnerabilities",
+      "wireshark": "Network protocol analyzer for monitoring and troubleshooting network traffic.",
+      "sandboxie": "Tool for running applications in an isolated sandbox environment.",
+      "clamav": "Open-source antivirus engine for detecting malware and malicious files.",
+      "malwarebytes": "Malware protection and removal software for home and business use.",
+      "virustotal": "Online scanner for analyzing files and URLs for malware and suspicious content.",
+      "openphish": "Automatic phishing detection and intelligence feed service.",
+      "urlvoid": "Tool to check a website’s reputation and detect malicious activities.",
+      "apwg": "Anti-Phishing Working Group offering resources to combat phishing globally",
+      "phishtank": "Community-powered database for identifying and reporting phishing websites"
+    },
+    "meta": {
+      "title": "Security Toolkit: Essential for Online Safety",
+      "description": "Stay safe online with our curated list of the best security tools and services. From phishing protection to malware reporting, we've got you covered."
+    }
+  },
+  "threatCard": {
+    "title": "ANZ Cyber Threats 2024",
+    "source": "Data sourced from public breach notifications and security reports. Numbers represent approximate affected users/records.",
+    "regional": {
+      "title": "Top Security Threats",
+      "phish": "Phishing Attacks",
+      "dataBreach": "Data Breaches",
+      "supplyChain": "Supply Chain Vulnerabilities",
+      "takeOver": "Account Compromises",
+      "ransomware": "Ransomeware and Cyber Extortion"
+    },
+    "recent": {
+      "title": "Recent Attacks",
+      "latitude": "14M RECORDS",
+      "optus": "10M CUSTOMERS IMPACTED",
+      "crowdStrike": "8.5M SYSTEMS CRASHED"
+    }
+  },
+  "pageCard": {
+    "tools": "Free tools and resources to help improve and protect your security",
+    "caseStudy": "Deep dive into detailed security case studies and technical write-ups",
+    "article": "Stay updated with our latest articles on security trends and best practices"
+  },
+  "analysis": {
+    "keyTrend": {
+      "title": "AI-Powered Threat Evolution",
+      "desc": "Tracking the rise of AI-enhanced cyber threats and their increasing sophistication."
+    },
+    "hero": {
+      "subhead": "Key Cybersecurity Challenges in AI",
+      "title": "2024 Cybersecurity Trends & Insights"
+    },
+    "graph": {
+      "title": "AI-Powered Cyber Threat Progression",
+      "yAxis": "Threat Sophistication (%)",
+      "xAxis": "Threat Evolution Stage",
+      "initialThreat": "Initial Threat",
+      "aiIntegration": "AI Integration",
+      "targetedAttacks": "Targeted Attacks",
+      "advancedPersistentThreat": "Advanced Persistent Threat",
+      "peakSophistication": "Peak Sophistication",
+      "label": "Cyber Threat Sophistication"
+    },
+    "meta": {
+      "title": "Cybersecurity Analysis | Trends & Case Studies",
+      "description": "Cybersecurity analysis from Xanzhu: Expert insights, trending threats, and real-world case studies."
+    }
+  }
+}

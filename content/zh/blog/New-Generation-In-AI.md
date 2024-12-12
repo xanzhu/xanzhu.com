@@ -3,7 +3,7 @@ title: "ChatGPT：引领新一代人工智能"
 description: "探索 AI 的力量及其将如何继续影响软件。 我们的文章涵盖了有关 ChatGPT 和语言模型的即将推出的解决方案和新闻。"
 date: "2023-03-27"
 tag: AI
-img: /images/blog/Gen/gptv2_s.png
+img: /images/blog/Gen/gptv2_s.webp
 toc: true
 alt: "ChatGPT视觉设计 Xanzhu"
 ---
@@ -24,13 +24,13 @@ Microsoft 发布了带有 ChatGPT 的 Bing 搜索。 它目前运行的是第 4 
 
 鉴于 Bing 的新聊天功能仅限于 Edge 浏览器，它确保有足够的优势与 Google Chrome 竞争。 聊天服务通过对话选择方法提供三种模式：Creative、Balanced 或 Precise。 对话不会被保存，并且在必须重新开始之前仅限于一些回应。
 
-<Media source="/images/blog/Gen/bing.webp" alt="Bing 的新聊天机器人启动画面"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/bing.webp" alt="Bing 的新聊天机器人启动画面"></Media>
 
 初次使用后，它在返回相关上下文和常识方面的答案时非常有帮助。 能够与 Bing 搜索集成，它本质上是扫描网站，然后提供带有选项的摘要，以通过提供的链接澄清或了解更多信息。 它混合了搜索其知识和仅搜索网络的功能。
 
 主要区别只是个性因素。 这感觉就像搜索网络，准确给出你搜索的内容，然后通过列出这些网站的来源来明确信息的来源。 为了进一步澄清信息，它可以根据类似的回答为您建议选项，作为最初请求的后续行动，或者只是让您输入您的答案。
 
-<Media source="/images/blog/Gen/bdialog.webp" alt="Bing 聊天机器人对话框预览"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/bdialog.webp" alt="Bing 聊天机器人对话框预览"></Media>
 
 Bing 为用户提供的选项有限，而且经常会中断请求。 他们在必须建立新主题之前引入了响应限制，这会阻止现有对话并鼓励用户选择扫帚按钮以清除聊天。 此限制可能会防止模型超出范围并确保每个人都可以使用它。 值得考虑的一件有趣的事情是历史如何与这些模型一起工作。 在此阶段，它不会保存在任何可访问的地方，并会重置为默认的启动画面。
 
@@ -58,7 +58,7 @@ Bing 为用户提供的选项有限，而且经常会中断请求。 他们在�
 
 宣布此消息两天后，微软还宣布他们正在努力推出一个名为 Copilot 的新 AI 驱动产品线，该产品线将在 365 产品线中引入，包括以下一些产品：Word、Excel 和 Outlook。 他们的愿景是利用您自己语言的力量来提高创造力水平。 与 Google 的 Doc 方法非常相似，Microsoft 遵循类似的概念，即简单地输入您的请求并观察魔术的发生。 有点不同的是，Copilot 还添加了一项功能，可以根据文件生成内容。
 
-<Media source="/images/blog/Gen/mfr.webp" alt="Microsoft 生成式 AI 视觉" credit="Microsoft"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/mfr.webp" alt="Microsoft 生成式 AI 视觉" credit="Microsoft"></Media>
 
 阅读来自 <PageLink title="Microsoft" url="https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/"></PageLink>
 
@@ -76,7 +76,7 @@ Bing 为用户提供的选项有限，而且经常会中断请求。 他们在�
 
 Github 现有 Copilot 软件的新增功能引入了一个更复杂的解决方案，它结合了一种新的语言模型，它将成为编码方面的真正合作伙伴。 作为微软生态系统的一部分，Copilot 将运行最新的 ChatGPT 版本 4 和 Github 自己的代码自动完成模型。
 
-<Media source="/images/blog/Gen/copilot.webp" alt="Github Copilot X 宣传视频" credit="Github"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/copilot.webp" alt="Github Copilot X 宣传视频" credit="Github"></Media>
 
 作为编码的新伴侣，Copilot 解决了必须搜索 Stack Overflow 或其他无数论坛才能解决简单问题的问题。 许多设计人员和 Web 开发人员搜索“如何使 Div 居中”。 但直接在 Visual Studio Code 中，Copilot 将在代码旁边提供功能，就像 ChatGPT 一样，能够在编写代码时进行交谈和阅读。
 
@@ -94,13 +94,13 @@ Copilot 将成为所有开发人员的有用工具，改进生产就绪代码的
 
 朝着正确方向迈出的一步是维护信息的属性、信息的来源以及访问方式。 Brave 通过在每个响应下列出源链接来做到这一点。 与 Bing 的方法类似，这确保生成的内容可以由用户查看和评估以确定来源的可信度。
 
-<Media source="/images/blog/Gen/bse.jpg" alt="Brave 摘要可视化" credit="Brave"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/bse.webp" alt="Brave 摘要可视化" credit="Brave"></Media>
 
 很多语言模型都没有识别信息的来源，具体来说，ChatGPT 显示信息但不识别信息的来源。 提供没有归因的结果，可以根据语言模型的训练内容设置偏差级别。 确保语言模型经过培训以尊重来源并减轻结果偏差至关重要。
 
 除了提供标有 Summarizer 的特定部分外，Brave 的 AI 模型还能够通过更精细的摘要突出显示特定答案，从而改变搜索结果中的结果片段，帮助用户更好地理解内容。
 
-<Media source="/images/blog/Gen/bdc.webp" alt="Brave 在线摘要视觉" credit="Brave"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/bdc.webp" alt="Brave 在线摘要视觉" credit="Brave"></Media>
 
 Brave 的 AI 模型完全由 Brave 运行，并且不依赖第三方的语言模型解决方案（例如 ChatGPT），这在使用 Bing 或 Google 时脱颖而出。 他们的语言模型是内部开发的，在三种不同的大型语言模型或 LLM 上进行了训练，在他们的软件系列中遵循相同的精神，即独立和私有。 这些模型基于 BART、DeBerta 和他们自己的搜索结果数据，所有这些模型都经过训练以完成不同的任务，例如问答、分类和总结。
 
@@ -116,7 +116,7 @@ Spotify 正在做一些有点不同的事情，根据用户的历史数据，根
 
 由 OpenAI 和来自 Sonantic 的语音模型提供支持，用于 DJ 的声音，经过训练可以像典型的 DJ 一样行动和响应，他们的 AI 模型具有不同的类别，例如流派、艺术家或情绪，很像基于 DJ 的个性化 DJ 设置 你喜欢的所有音乐。
 
-<Media source="/images/blog/Gen/spotify.webp" alt="Spotify DJ 宣传视觉" credit="Spotify"></Media>
+<Media source="https://cdn.xanzhu.com/v1/next-gen-ai/spotify.webp" alt="Spotify DJ 宣传视觉" credit="Spotify"></Media>
 
 Spotify 用于个性化和准确找到用户音乐品味的算法令人难以置信。 它可以为您准确匹配音乐，无需任何主要语言模型。 Spotify 目前的问题是给用户带来了不一样的体验。 一个常见的问题是播放列表或歌曲收音机的内容经常以相同的顺序重复。
 

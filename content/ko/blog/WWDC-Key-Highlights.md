@@ -2,7 +2,7 @@
 title: "WWDC 2023: 주요 하이라이트"
 date: "2023-06-06"
 tag: "Apple"
-img: /images/blog/wwdc/WWDC.png
+img: /images/blog/wwdc/WWDC.webp
 description: "Apple의 Worldwide Developer Conference의 최신 발표 및 릴리스."
 toc: true
 alt: "WWDC 2023"
@@ -17,7 +17,7 @@ source: Apple
 
 ### Vision Pro
 
-<Media source="/images/blog/wwdc/VP.webp" alt="VisionPro VR 헤드셋" credit="The Verge"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/VP.webp" alt="VisionPro VR 헤드셋" credit="The Verge"></Media>
 
 가상 현실 헤드셋에 대한 Apple의 첫 번째 시도. 현실과 가상이 혼합된 독특한 경험을 제공합니다. 이 헤드셋은 몇 가지 인상적인 소프트웨어 기술을 제공하며 대부분의 헤드셋이 고려하지 않은 많은 기능을 처리합니다.
 
@@ -43,7 +43,7 @@ VisionPro에는 비디오와 사진을 실시간으로 찍을 수 있는 버튼�
 헤드셋은 또한 사용자가 사용자를 인식하고 주의를 기울이고 있음을 나타내는 사용자의 눈을 표시합니다.
 이 기능만으로는 모든 VR 헤드셋이 주변 인식 및 헤드셋을 착용하지 않은 다른 사람과의 상호 작용 옵션을 통합하지 않는 것입니다.
 
-<Media source="/images/blog/wwdc/human.jpeg" alt="VisionPro 데모" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/human.webp" alt="VisionPro 데모" credit="Apple"></Media>
 
 <h4>충전/케이블</h4>
 
@@ -66,7 +66,7 @@ M2를 사용하는 듀얼 칩 성능 모델과 새로운 R1 칩을 사용하여 
 
 매우 <PageLink title="흥미로운 개념" url="https://www.apple.com/apple-vision-pro/"></PageLink> 그리고 완전히 다르지만 판도를 바꾸는 일을 한 Apple에 찬사를 보냅니다. 신경망만으로 이 작업을 수행하는 데 필요한 프로세싱은 인상적이며 향후 몇 년 동안 이것이 어떻게 적응하고 개선될지 기대됩니다.
 
-<Media source="/images/blog/wwdc/sensor.jpeg" alt="VisionPro 감지기" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/sensor.webp" alt="VisionPro 감지기" credit="Apple"></Media>
 
 <h4>비전OS</h4>
    새로운 Vision Pro 가상 현실 헤드셋과 함께 작동할 모든 새로운 맞춤 설계 응용 프로그램을 수용할 완전히 새로운 운영 체제입니다. 개발자는 이러한 응용 프로그램을 개발하기 위한 특별한 플랫폼과 응용 프로그램을 갖게 됩니다.
@@ -105,7 +105,7 @@ M2를 사용하는 듀얼 칩 성능 모델과 새로운 R1 칩을 사용하여 
 
 엄청난 <PageLink title="성능 향상" url="https://www.apple.com/mac-pro/"></PageLink>, 이 새로운 고성능 컴퓨터는 이전보다 7.6배 향상된 새로운 M2 Ultra 칩을 사용합니다. 인텔 버전.
 
-<Media source="/images/blog/wwdc/macpro.jpeg" alt="Mac Pro" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/macpro.webp" alt="Mac Pro" credit="Apple"></Media>
 
 지원:
 
@@ -139,7 +139,7 @@ Apple은 향후 몇 개월에 걸쳐 출시되는 공개 베타 테스트를 위
 
 ### iOS 17
 
-<Media source="/images/blog/wwdc/ios17.png" alt="iOS 17 시사" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/ios17.webp" alt="iOS 17 시사" credit="Apple"></Media>
 
 <h4>프로필 개선</h4>
 
@@ -157,7 +157,7 @@ Apple은 향후 몇 개월에 걸쳐 출시되는 공개 베타 테스트를 위
 
 이제 오디오 메시지에 재생하지 않고도 실시간 대본을 표시할 수 있는 옵션이 있습니다. 들을 수 없을 때 더 빠른 응답을 허용합니다.
 
-<Media source="/images/blog/wwdc/transcribe.jpeg" alt="iOS 17 오디오 전사 기능" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/transcribe.webp" alt="iOS 17 오디오 전사 기능" credit="Apple"></Media>
 
 <h4>페이스타임</h4>
 
@@ -181,7 +181,7 @@ Apple은 향후 몇 개월에 걸쳐 출시되는 공개 베타 테스트를 위
 
 새로운 연락처 공유 기능으로 휴대폰을 서로 가까이 두면 연락처 정보를 공유할 수 있습니다. 자주 사용하지 않는 흥미로운 기능인 것 같습니다. 누군가와 부딪히면 개인 정보 보호 문제로 이어질 수 있으므로 시작하기 전에 입력이 필요한 Apple Pay와 동일하게 활성화되기를 바랍니다.
 
-<Media source="/images/blog/wwdc/airdrop.jpeg" alt="iOS 17 AirDrop 특징" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/airdrop.webp" alt="iOS 17 AirDrop 특징" credit="Apple"></Media>
 
 <h4>SharePlay 개선</h4>
 
@@ -201,7 +201,7 @@ AirDrop을 사용하여 다른 사람과 직접 연결하는 더 나은 경험�
 
 예를 들어 음식 항목의 사진을 찍고 시각적 조회 기능을 사용하여 초기 사진을 기반으로 유사한 레시피나 요리를 찾습니다. 이것은 이미지를 누른 상태에서 "조회"를 선택하여 활성화할 수 있습니다.
 
-<Media source="/images/blog/wwdc/lookup.jpeg" alt="iOS 17 조회 기능" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/lookup.webp" alt="iOS 17 조회 기능" credit="Apple"></Media>
 
 <h4>AirPlay</h4>
 
@@ -231,7 +231,7 @@ AirPod를 음소거 및 음소거 해제하려면 한 번 누르십시오.
 
 ### iPadOS 17
 
-<Media source="/images/blog/wwdc/ipados.png" alt="iPadOS 17 시사" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/ipados.webp" alt="iPadOS 17 시사" credit="Apple"></Media>
 
 <h4>잠금 화면</h4>
 
@@ -245,7 +245,7 @@ AirPod를 음소거 및 음소거 해제하려면 한 번 누르십시오.
 
 노트에 실시간으로 주석을 달 수 있는 멋진 기능입니다. 즉, PDF/노트를 다른 사람과 공유하고 둘 다 주석을 달고 실시간으로 볼 수 있습니다. 이것은 더 나은 협업을 촉진하는 FaceTime에서도 작동합니다.
 
-<Media source="/images/blog/wwdc/pdf.jpeg" alt="PDF 협업 미리보기" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/pdf.webp" alt="PDF 협업 미리보기" credit="Apple"></Media>
 
 <h4>자유 형식</h4>
 
@@ -307,7 +307,7 @@ Safari에는 이제 프로필이 있어 학교, 직장 또는 개인용과 같�
 
 이제 스티커가 개선되어 화면 어디에서나 간단한 드래그 앤 드롭으로 메시지에 직접 적용할 수 있습니다. 또한 크게 개선된 사용자 지정 스티커는 이제 라이브 이미지를 가져오고 추출하여 사용자 지정 애니메이션을 만들 수 있습니다.
 
-<Media source="/images/blog/wwdc/stickers.jpeg" alt="macOS 메시지 스티커 기능" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/stickers.webp" alt="macOS 메시지 스티커 기능" credit="Apple"></Media>
 
 <h4>PDF 및 메모</h4>
 
@@ -333,7 +333,7 @@ Mac에서 더 많은 게임을 지원하도록 개선되었습니다. 게임 모
 
 이 기능은 메시징 응용 프로그램 내에서 민감한 비디오 및 사진을 보호합니다. 요청하지 않은 이미지가 검토되는 것을 방지하기 위해 활성화할 수 있습니다. 사용자가 이미지 및 비디오를 보도록 선택할 수 있도록 콘텐츠 경고를 이미지 및 비디오에 설정하는 옵션도 있습니다.
 
-<Media source="/images/blog/wwdc/comms.png" alt="메시지 통신 안전" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/comms.webp" alt="메시지 통신 안전" credit="Apple"></Media>
 
 <h4>잠금 모드</h4>
 
@@ -356,7 +356,7 @@ Mac에서 더 많은 게임을 지원하도록 개선되었습니다. 게임 모
 
 시스템 애플리케이션의 완전한 재설계. 더 보기 좋은 경험을 제공하고 사용성 및
 
-<Media source="/images/blog/wwdc/watchos.png" alt="watchOS 10 미리보기" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/watchos.webp" alt="watchOS 10 미리보기" credit="Apple"></Media>
 
 <h4>스마트 스택</h4>
 
@@ -375,7 +375,7 @@ Snoopy와 Woodstock의 애니메이션 버전에는 운동이나 현재 날씨 �
 
 Ultra-edition은 하이킹을 개선하여 연결이 마지막으로 설정되었을 때 자동 웨이포인트를 허용합니다. 또한 네트워크를 통해 기본 SOS 기능을 사용할 수 있는 지점을 나타냅니다. 또한 Elevation Views를 사용하여 새로운 3차원 보기를 추가합니다.
 
-<Media source="/images/blog/wwdc/hiking.jpeg" alt="watchOS 하이킹 기능" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/hiking.webp" alt="watchOS 하이킹 기능" credit="Apple"></Media>
 
 <h4>지형도</h4>
 

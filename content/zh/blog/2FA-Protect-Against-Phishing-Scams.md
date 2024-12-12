@@ -7,6 +7,7 @@ description: "双因素身份验证 (2FA) 如何提高在线安全性并保护�
 alt: "微软认证器"
 source: "Ed Hardie, Unsplash"
 toc: true
+feature: true
 ---
 
 在我之前的文章中，我讨论了使用密码管理器来增强您的安全性。 另一个需要考虑的关键方面是使用双因素身份验证 (2FA)。
@@ -36,7 +37,7 @@ toc: true
 
 ### Aegis
 
-<Media source="/images/blog/2FA/Aegis.webp" alt="Aegis 身份验证器徽标"></Media>
+<Media source="https://cdn.xanzhu.com/v1/2-factor-auth/aegis.webp" alt="Aegis 身份验证器徽标"></Media>
 
 Aegis 是一款免费的开源身份验证器应用程序，可通过 Google Play 商店和 F-Droid 在 Android 上使用。 与标准软件相比，它提供了更高的安全性，因为令牌不会在您打开应用程序时立即显示。
 
@@ -46,7 +47,7 @@ Aegis 是一款免费的开源身份验证器应用程序，可通过 Google Pla
 
 ### 2FAS
 
-<Media source="/images/blog/2FA/2FAS.webp" alt="2FAS 验证器徽标"></Media>
+<Media source="https://cdn.xanzhu.com/v1/2-factor-auth/2fas.webp" alt="2FAS 验证器徽标"></Media>
 
 2FAS 是我个人最喜欢的，它在 Android 和 iOS 上提供无缝的双因素身份验证体验。 它还具有适用于 Brave、Firefox、Opera 等的浏览器扩展，允许在浏览器中快速访问 2FA 代码。
 
@@ -61,7 +62,7 @@ Aegis 是一款免费的开源身份验证器应用程序，可通过 Google Pla
 
 ### Raivo 一次性密码
 
-<Media source="/images/blog/2FA/Ravio.webp" alt="Ravio 身份验证器徽标"></Media>
+<Media source="https://cdn.xanzhu.com/v1/2-factor-auth/ravio.webp" alt="Ravio 身份验证器徽标"></Media>
 
 Raivo OTP 是一款轻量级、开源且免费使用的身份验证器应用程序，可在您的所有 Apple 设备之间同步。 它使用 Swift 5 构建，是 Apple 生态系统中的原生应用程序，可在移动设备和 MacOS 上运行。
 

@@ -2,7 +2,7 @@
 title: "WWDC 2023：主要亮点"
 date: "2023-06-06"
 tag: "Apple"
-img: /images/blog/wwdc/WWDC.png
+img: /images/blog/wwdc/WWDC.webp
 description: "Apple 全球开发者大会的最新公告和发布。"
 toc: true
 alt: "WWDC 2023"
@@ -17,7 +17,7 @@ source: "Apple"
 
 ### Vision Pro
 
-<Media source="/images/blog/wwdc/VP.webp" alt="VisionPro VR 耳机" credit="The Verge"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/VP.webp" alt="VisionPro VR 耳机" credit="The Verge"></Media>
 
 Apple 首次尝试虚拟现实耳机。 提供混合现实与虚拟的独特体验。 这款耳机提供了一些令人印象深刻的软件技术，并处理了大多数耳机没有考虑到的许多功能。
 
@@ -43,7 +43,7 @@ VisionPro 具有一个按钮，可以实时拍摄视频和照片。 然后可以
 头戴式耳机还会显示用户的眼睛，表示他们注意到您并正在注意。
 仅此一项功能是所有 VR 头戴设备都没有的，包括对周围环境的感知以及与未佩戴头戴设备的其他人进行交互的选项。
 
-<Media source="/images/blog/wwdc/human.jpeg" alt="VisionPro Demo" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/human.webp" alt="VisionPro Demo" credit="Apple"></Media>
 
 <h4>充电/数据线</h4>
 
@@ -66,7 +66,7 @@ VisionPro 具有一个按钮，可以实时拍摄视频和照片。 然后可以
 
 非常 <PageLink title="有趣的概念" url="https://www.apple.com/apple-vision-pro/"></PageLink>，感谢 Apple 做了一些完全不同但改变游戏规则的事情。 仅使用神经网络完成这项工作所需的处理过程就令人印象深刻，我很高兴看到这将在未来几年内如何适应和改进。
 
-<Media source="/images/blog/wwdc/sensor.jpeg" alt="VisionPro sensor" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/sensor.webp" alt="VisionPro sensor" credit="Apple"></Media>
 
 <h4>视觉操作系统</h4>
 
@@ -106,7 +106,7 @@ VisionPro 具有一个按钮，可以实时拍摄视频和照片。 然后可以
 
 疯狂的 <PageLink title="性能改进" url="https://www.apple.com/mac-pro/"></PageLink> ，这款新的高性能机器使用新的 M2 Ultra 芯片，性能提升 7.6 倍 英特尔版本。
 
-<Media source="/images/blog/wwdc/macpro.jpeg" alt="Mac Pro" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/macpro.webp" alt="Mac Pro" credit="Apple"></Media>
 
 支持：
 
@@ -140,7 +140,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 ### iOS 17
 
-<Media source="/images/blog/wwdc/ios17.png" alt="iOS 17 Preview" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/ios17.webp" alt="iOS 17 Preview" credit="Apple"></Media>
 
 <h4>配置文件改进</h4>
 
@@ -158,7 +158,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 音频消息现在可以选择显示实时转录而不需要播放。 在无法收听时允许更快的响应。
 
-<Media source="/images/blog/wwdc/transcribe.jpeg" alt="iOS 17 音频转录功能" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/transcribe.webp" alt="iOS 17 音频转录功能" credit="Apple"></Media>
 
 <h4>视频通话</h4>
 
@@ -182,7 +182,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 新的联系人共享功能，只需将手机彼此靠近即可共享联系人详细信息。 似乎是一个可能不经常使用的有趣功能。 希望这会像 Apple Pay 一样激活，在启动之前需要输入，因为撞到某人可能会导致显示，从而导致隐私问题。
 
-<Media source="/images/blog/wwdc/airdrop.jpeg" alt="iOS 17 AirDrop 功能" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/airdrop.webp" alt="iOS 17 AirDrop 功能" credit="Apple"></Media>
 
 <h4>SharePlay 改进</h4>
 
@@ -202,7 +202,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 例如，拍一张食物的照片，然后使用视觉查找功能根据初始照片找到相似的食谱或菜肴。 这可以通过按住图像并选择“查找”来激活
 
-<Media source="/images/blog/wwdc/lookup.jpeg" alt="iOS 17 查找功能" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/lookup.webp" alt="iOS 17 查找功能" credit="Apple"></Media>
 
 <h4>隔空播放</h4>
 
@@ -232,7 +232,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 ### iPadOS 17
 
-<Media source="/images/blog/wwdc/ipados.png" alt="iPadOS 17 Preview" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/ipados.webp" alt="iPadOS 17 Preview" credit="Apple"></Media>
 
 <h4>锁屏</h4>
 
@@ -246,7 +246,7 @@ Apple 向开发人员展示他们的软件以供测试，并在接下来的几�
 
 一个很棒的功能，允许实时注释笔记，这意味着您可以与另一个人共享 pdf/笔记，并在上面进行注释并实时查看它们。 这也适用于 FaceTime，可促进更好的协作。
 
-<Media source="/images/blog/wwdc/pdf.jpeg" alt="PDF 协作预览" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/pdf.webp" alt="PDF 协作预览" credit="Apple"></Media>
 
 <h4>自由形式</h4>
 
@@ -308,7 +308,7 @@ Safari 现在有配置文件，允许为学校、工作或个人用途等进行�
 
 贴纸现在得到了改进，可以通过简单的拖放到屏幕上的任意位置直接应用于消息。 自定义贴纸也得到了显着改进，现在可以拍摄实时图像并提取它们以创建自定义动画。
 
-<Media source="/images/blog/wwdc/stickers.jpeg" alt="macOS 消息贴纸功能" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/stickers.webp" alt="macOS 消息贴纸功能" credit="Apple"></Media>
 
 <h4>PDF 和注释</h4>
 
@@ -334,7 +334,7 @@ Safari 现在有配置文件，允许为学校、工作或个人用途等进行�
 
 该功能引入了对消息传递应用程序中敏感视频和照片的保护。 可以启用此功能以防止审查未经请求的图像。 还有一个选项可以在图像和视频上设置内容警告，允许用户选择查看它们。
 
-<Media source="/images/blog/wwdc/comms.png" alt="消息通信安全" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/comms.webp" alt="消息通信安全" credit="Apple"></Media>
 
 <h4>锁定模式</h4>
 
@@ -357,7 +357,7 @@ Safari 现在有配置文件，允许为学校、工作或个人用途等进行�
 
 完全重新设计系统应用程序。 提供更流畅的体验和可用性和急需的设计改进
 
-<Media source="/images/blog/wwdc/watchos.png" alt="watchOS 10 Preview" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/watchos.webp" alt="watchOS 10 Preview" credit="Apple"></Media>
 
 <h4>智能堆栈</h4>
 
@@ -376,7 +376,7 @@ Safari 现在有配置文件，允许为学校、工作或个人用途等进行�
 
 Ultra 版正在改进远足功能，允许在上次建立连接时自动设置路标。 还指示可以通过网络使用本机 SOS 功能的位置。 加上使用立面视图添加新的三维视图。
 
-<Media source="/images/blog/wwdc/hiking.jpeg" alt="watchOS 远足功能" credit="Apple"></Media>
+<Media source="https://cdn.xanzhu.com/v1/wwdc-2023/hiking.webp" alt="watchOS 远足功能" credit="Apple"></Media>
 
 <h4>地形图</h4>
 

@@ -44,6 +44,17 @@ export default defineConfig({
           "padding-bottom": "56.25%",
           height: "0",
         },
+        "figure figcaption": {
+          color: "#000",
+          "font-size": "12px",
+          "letter-spacing": "0.025em",
+          opacity: "0.7",
+          "--uno": "dark:text-white",
+        },
+        i: {
+          opacity: "0.8",
+          "font-weight": "300",
+        },
       },
     }),
   ],
@@ -54,6 +65,19 @@ export default defineConfig({
         dark: "#007BFF", // text-brand-dark
         light: "#0067d4", // text-brand-light
       },
+      element: {
+        dark: "#050505",
+        light: "#fffffffa",
+      },
     },
+    fontFamily: {
+      sans: "Geist, system-ui, sans-serif",
+    },
+  },
+  shortcuts: {
+    "core-theme":
+      "bg-element-light dark:(bg-element-dark text-white) text-black",
+    "core-border": "dark:b-dark4 b-gray3 b-1 b-solid",
+    "core-ui": "dark:(bg-dark9 text-white) bg-gray1 text-black",
   },
 });

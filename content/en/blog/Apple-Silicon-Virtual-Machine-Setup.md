@@ -26,7 +26,7 @@ How do you know if your Mac is running on Apple Silicon?
 
 ## Parallels
 
-<Media source="/images/blog/VM/Parallels.webp" credit="Parallels / Xanzhu" alt="Parallels Virtual Machine Logo"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/Parallels.webp" credit="Parallels / Xanzhu" alt="Parallels Virtual Machine Logo"></Media>
 
 A paid virtualisation software that works natively and is essentially a one-click install of all your favourite Operating Systems.
 
@@ -36,7 +36,7 @@ It offers great tools and makes the whole process smooth as possible.
 2. Once installed open "Parallels Desktop".
 3. Now select the operating system you'd like to install.
 
-<Media source="/images/blog/VM/p-install.webp" alt="Parallels Installation Wizard"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/p-install.webp" alt="Parallels Installation Wizard"></Media>
 
 Note it's ideal to have at least 25-30 GB of free space before installing any operating system.
 
@@ -63,7 +63,7 @@ Upon startup, you'll be asked to set a password and then Parallels tools will ne
 1. Select the Ubuntu Icon and click continue
 2. Download Ubuntu, this will take some time.
 
-<Media source="/images/blog/VM/u-download.webp" alt="Parallels ubuntu setup wizard"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/u-download.webp" alt="Parallels ubuntu setup wizard"></Media>
 
 3. After downloading the virtual machine will automatically start
 4. You'll be prompted to create a password for the login
@@ -79,7 +79,7 @@ How do you manage or configure your virtual machines?
 1. Open "Parallels Desktop" this may automatically boot into your virtual machine, simply shut it down
 2. Right-click on the Parallels Desktop Application and select "Control Center", here you can add/edit or remove them.
 
-<Media source="/images/blog/VM/config.webp" alt="Parallels Virtual Machine Configuration Panel"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/config.webp" alt="Parallels Virtual Machine Configuration Panel"></Media>
 
 3. To add another virtual machine press the plus icon and go through the installation process mentioned above
 4. Deleting a virtual machine right click on the virtual machine and select _Remove (Device Name)_, Device name will be the name of the virtual machine.
@@ -87,7 +87,7 @@ How do you manage or configure your virtual machines?
 
 ## UTM
 
-<Media source="/images/blog/VM/UTM.webp" credit="UTM / Xanzhu" alt="UTM installation wizard"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/UTM.webp" credit="UTM / Xanzhu" alt="UTM installation wizard"></Media>
 
 UTM is a free tool that does the same thing as parallels but you're in charge of the customisations.
 
@@ -132,7 +132,7 @@ Now installing windows
 5. Continue through the steps, setting name, password, and security questions.
 6. Once you've booted into Windows 11 open the file explorer and select the CD drive, double click on install spice-guest-tools
 
-<Media source="/images/blog/VM/u-spice.webp" alt="File explorer windows 11"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/u-spice.webp" alt="File explorer windows 11"></Media>
 
 7. Select Reboot and you now have a working Windows 11 virtual machine.
 
@@ -170,7 +170,7 @@ Installing Ubuntu can be a lengthy process in this guide we'll need to install t
 24. Featured Server Snaps.. press DOWN_ARROW and then press ENTER to continue
 25. The installation will now install
 
-<Media source="/images/blog/VM/u-linux.webp" alt="Linux server installing display"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/u-linux.webp" alt="Linux server installing display"></Media>
 
 26. Once this is completed press the DOWN_ARROW so "Reboot now" is highlighted and press ENTER
 27. Once the screen goes black wait a couple of minutes and then up the top select the disc icon and eject the ISO file.

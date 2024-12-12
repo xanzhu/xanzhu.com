@@ -3,7 +3,7 @@ title: "The Future of Search Engines, Redfined by AI"
 description: "Uncover the potential of ChatGPT, the advanced AI language model, and how it will transform the way we search for information."
 tag: "News"
 date: "2023-02-07"
-img: "/images/blog/AI/cover-v3.png"
+img: "/images/blog/AI/cover-v3.webp"
 alt: "Logos of Bing, Google, and OpenAI"
 ---
 
@@ -11,7 +11,7 @@ A shift is happening right now, with major search engines such as Google and Bin
 
 Searching the web has been as simple as typing in what you want and being given a list of results related to what has been asked. At the start of the internet's dot com era, web results were curated by users in their directories and contained a few links. The problem we're facing now is there's simply too much data for us to process and find the information needed. Searching for anything will provide you with billions of results, and that's where a shift is taking place to provide search to the next generation
 
-<Media source="/images/blog/AI/youtube.png" alt="Youtube Search Results"></Media>
+<Media source="https://cdn.xanzhu.com/v1/future-search-engines/youtube.webp" alt="Youtube Search Results"></Media>
 
 ## Artificial Intelligence
 
@@ -19,7 +19,7 @@ Artificial Intelligence, or AI, is where our future is heading. Systems will be 
 
 <PageLink title="ChatGPT" url="https://chat.openai.com/"></PageLink> has been around since November 2022, developed by OpenAI, allowing for human-like interactions trained through data collected on the internet. OpenAI's Language model is very powerful and will solve many mundane tasks, and they released a research preview that is already capable. The potential for this technology is limitless and will continue to be implemented across software, improving on what we have at the moment.
 
-<Media source="/images/blog/AI/chatgpt.png" alt="ChatGPT"></Media>
+<Media source="https://cdn.xanzhu.com/v1/future-search-engines/chatgpt.webp" alt="ChatGPT"></Media>
 
 Having the option to communicate ideas, questions, or thoughts with an AI is a strange but often helpful experience. Based on its training dataset, which mostly covers information until 2021, the AI is generally accurate. However, as it is a research preview, there are still many bugs and limitations to its answers, such as refusing to answer specific questions or giving inaccurate calculations.
 

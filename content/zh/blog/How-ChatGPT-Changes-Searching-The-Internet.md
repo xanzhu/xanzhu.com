@@ -3,7 +3,7 @@ title: "ChatGPT 将如何改变我们搜索互联网的方式"
 description: "揭示高级 AI 语言模型 ChatGPT 的潜力，以及它将如何改变我们搜索信息的方式。"
 tag: "消息"
 date: "2023-02-07"
-img: "/images/blog/AI/cover-v3.png"
+img: "/images/blog/AI/cover-v3.webp"
 alt: "Bing、Google 和 OpenAI 的徽标"
 ---
 
@@ -11,7 +11,7 @@ alt: "Bing、Google 和 OpenAI 的徽标"
 
 搜索网络一直很简单，只需输入您想要的内容，并获得与所问内容相关的结果列表。 在互联网的.com 时代开始时，网络结果由用户在他们的目录中整理并包含一些链接。 我们现在面临的问题是数据太多，我们无法处理和找到所需的信息。 搜索任何内容都会为您提供数十亿个结果，而这正是为下一代提供搜索服务的转变所在
 
-<Media source="/images/blog/AI/youtube.png" alt="Youtube 搜索结果"></Media>
+<Media source="https://cdn.xanzhu.com/v1/future-search-engines/youtube.webp" alt="Youtube 搜索结果"></Media>
 
 ## 人工智能
 
@@ -19,7 +19,7 @@ alt: "Bing、Google 和 OpenAI 的徽标"
 
 <PageLink title="ChatGPT" url="https://chat.openai.com/"></PageLink> 自 2022 年 11 月以来一直存在，由 OpenAI 开发，允许通过在互联网上收集的数据训练类人交互。 OpenAI 的语言模型非常强大，可以解决许多平凡的任务，他们发布了一个已经具备能力的研究预览。 这项技术的潜力是无限的，并将继续在软件中实施，改进我们目前所拥有的。
 
-<Media source="/images/blog/AI/chatgpt.png" alt="ChatGPT"></Media>
+<Media source="https://cdn.xanzhu.com/v1/future-search-engines/chatgpt.webp" alt="ChatGPT"></Media>
 
 可以选择与 AI 交流问题或想法是一种奇怪但通常很有帮助的体验。 根据其训练数据集（主要涵盖 2021 年之前的信息），人工智能通常是准确的。 然而，由于是研究预习，其答案仍然存在许多错误和局限性，例如拒绝回答特定问题或给出不准确的计算。
 

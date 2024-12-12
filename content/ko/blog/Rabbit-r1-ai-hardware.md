@@ -4,7 +4,7 @@ description: "번거로움을 없애고 기술 공간 탐색에서 벗어나는 
 tag: "기술"
 date: "2024-01-25"
 feature: true
-img: "/images/blog/R1/cover.png"
+img: "/images/blog/R1/cover.webp"
 alt: "Rabbit의 R1 하드웨어 장치 프로모션 이미지"
 ---
 
@@ -60,7 +60,7 @@ Rabbit은 새로운 것이며 우리는 그들이 Rabbit OS와 R1을 통해 또 
 
 더 자세히 알아보고 싶으시다면 <PageLink title="Rabbit" url="https://www.rabbit.tech/"></PageLink> 회사로서, 그들이 하는 일을 확인하고 웹사이트를 확인하고 Large Action Model에 도입되는 기능을 포함하여 향후 기능과 작업 중인 내용을 포함하여 장치에 제공되는 다른 내용을 알아보세요.
 
-<Media source="/images/blog/R1/inline-1.png" alt="Rabbit의 R1 하드웨어 장치는 화면과 촉각 버튼이 있는 눈에 띄는 주황색 디자인입니다."></Media>
+<Media source="https://cdn.xanzhu.com/v1/rabbit-r1/inline-1.webp" alt="Rabbit의 R1 하드웨어 장치는 화면과 촉각 버튼이 있는 눈에 띄는 주황색 디자인입니다."></Media>
 
 이 장치는 선주문이 진행되는 동안 AI를 가지고 놀고 무료로 기능을 확인하는 데 관심이 있다면 확인해 보세요. <PageLink title="ChatGPT" url="https://chat.openai.com/"></PageLink>, <PageLink title="Bard" url="https://bard.google.com/chat"></PageLink>, 아니면 시도해 보세요 <PageLink title="CoPilot" url="https://www.microsoft.com/en-us/windows/copilot-ai-features"></PageLink> Windows에서.
 
