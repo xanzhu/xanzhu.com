@@ -22,7 +22,7 @@
           <Icon name="ri:search-line" class="absolute left-3 h-5 w-5 text-gray-3" aria-hidden="true" />
           <input v-model="searchQuery" type="text" :placeholder="t('resources.search.placeholder')"
             :aria-label="t('resources.search.placeholder')" role="searchbox" @touchstart.prevent
-            class="w-full pl-10 pr-4 p4 rounded-lg focus:ring-none bg-white dark:bg-black focus:outline-none border-none text-dark1 dark:text-white" />
+            class="w-full pl-10 pr-4 p4 rounded-lg focus:ring-none bg-white dark:bg-black focus:outline-none border-none text-dark1 dark:text-white text-16px" />
         </div>
         <p v-if="!filteredResources.length" class="text-center text-dark1 dark:text-white mt-4">
           {{ t('resources.search.noResults') }}
@@ -70,15 +70,13 @@ interface Link {
   description: string;
 }
 
-interface Tool extends Link { }
-
 interface Resource {
   id: string;
   title: string;
   fullDescription: string;
   icon: string;
   links: Link[];
-  reporting: Tool[];
+  reporting: Link[];
 }
 
 const { t } = useI18n();
