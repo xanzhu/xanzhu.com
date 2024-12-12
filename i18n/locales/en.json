@@ -215,7 +215,8 @@
       "latitude": "14M RECORDS",
       "optus": "10M CUSTOMERS IMPACTED",
       "crowdStrike": "8.5M SYSTEMS CRASHED"
-    }
+    },
+    "ariaLabel": "(Read more in new tab)"
   },
   "pageCard": {
     "tools": "Free tools and resources to help improve and protect your security",

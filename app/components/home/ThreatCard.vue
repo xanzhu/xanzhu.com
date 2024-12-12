@@ -5,7 +5,7 @@
         {{ t('threatCard.title') }}
       </h2>
       <div class="h-8 w-8 sm:h-12 sm:w-12 text-black">
-        <Icon name="lucide:shield" class="w-full h-full" />
+        <Icon name="lucide:shield" class="w-full h-full" aria-hidden="true" />
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
@@ -16,24 +16,24 @@
             {{ t('threatCard.regional.title') }}
           </h3>
         </div>
-        <div class="space-y-3">
+        <ul class="space-y-3 list-none p-0">
           <div v-for="threat in threats" :key="threat.id" :class="[
             'bg-zinc-800 p-3 rounded transition-all hover:bg-zinc-700 cursor-pointer border-l-4',
           ]">
-            <div class="flex items-center">
+            <li class="flex items-center" tabindex="0">
               <span class=" text-3xl font-bold text-white op70 px4">{{
                 threat.id }}.</span>
               <p class="text-white font-medium text-sm sm:text-base">
                 {{ threat.name }}
               </p>
-            </div>
+            </li>
           </div>
-        </div>
+        </ul>
       </div>
 
       <div class=" bg-zinc-900 rounded-lg p-3 sm:p-4">
         <div class="flex items-center mb-3 sm:mb-4">
-          <Icon name="lucide:lock" class="h-5 w-5 text-white mr-2 flex-shrink-0" />
+          <Icon name="lucide:lock" class="h-5 w-5 text-white mr-2 flex-shrink-0" aria-hidden="true" />
           <h3 class="text-lg sm:text-xl font-semibold text-white">
             {{ t('threatCard.recent.title') }}
           </h3>
@@ -42,7 +42,9 @@
           <div v-for="breach in breaches" :key="breach.id" :class="[
             'bg-yellow-4 p-3 rounded transition-all hover:bg-yellow-5 cursor-pointer border-l-4',
           ]">
-            <NuxtLink :to="breach.reference" class="grid grid-cols-[1fr,auto] gap-2 items-start decoration-none relative" target="_blank">
+            <NuxtLink :to="breach.reference"
+              class="grid grid-cols-[1fr,auto] gap-2 items-start decoration-none relative" target="_blank"
+              :aria-label="`${breach.name} - ${breach.subtext} ` + t('threatCard.ariaLabel')">
               <div class="min-w-0">
                 <p class="text-black font-semibold text-sm sm:text-base truncate">
                   {{ breach.name }}
@@ -56,8 +58,8 @@
                   {{ breach.date }}
                 </span>
               </div>
-              <Icon name="lucide:external-link" class="absolute right-0 h5 w5 text-black"/>
-             </NuxtLink>
+              <Icon name="lucide:external-link" class="absolute right-0 h5 w5 text-black" aria-hidden="true" />
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -71,7 +73,20 @@
 <script setup lang="ts">
 const { t } = useI18n();
 
-const threats = [
+interface Threat {
+  id: number;
+  name: string;
+}
+
+interface Breach {
+  id: number;
+  name: string;
+  subtext: string;
+  date: string;
+  reference: string;
+}
+
+const threats: Threat[] = [
   { id: 1, name: t('threatCard.regional.phish') },
   { id: 2, name: t('threatCard.regional.ransomware') },
   { id: 3, name: t('threatCard.regional.takeOver') },
@@ -79,7 +94,7 @@ const threats = [
   { id: 5, name: t('threatCard.regional.dataBreach') }
 ];
 
-const breaches = [
+const breaches: Breach[] = [
   {
     id: 1,
     name: "CROWDSTRIKE",
@@ -95,7 +110,7 @@ const breaches = [
     reference: "https://www.optus.com.au/support/cyberresponse"
   },
   {
-    id: 4,
+    id: 3,
     name: "LATITUDE",
     subtext: t('threatCard.recent.latitude'),
     date: "2023",
