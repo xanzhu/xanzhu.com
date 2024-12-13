@@ -187,6 +187,5 @@ export default defineNuxtConfig({
     future: {
       nativeSWR: true,
     },
-    preset: "cloudflare-pages",
   },
 });
