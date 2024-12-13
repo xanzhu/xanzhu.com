@@ -45,7 +45,7 @@ There are a variety of password managers available, both free and paid. I will s
 
 ### Bitwarden
 
-<Media source="/images/blog/PM/bitwarden.webp" credit="Bitwarden / Xanzhu" alt="Bitwarden Password Manager Logo"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/bitwarden.webp" credit="Bitwarden / Xanzhu" alt="Bitwarden Password Manager Logo"></Media>
 
 One of the best free password managers you can use is Bitwarden. While it does offer paid plans that increase the options and features, the <PageLink title="free plan" url="https://bitwarden.com/pricing/"></PageLink> is sufficient for most users.
 
@@ -68,7 +68,7 @@ It's worth noting that when it comes to security and privacy, using open-source 
 
 ### Keepass
 
-<Media source="/images/blog/PM/keepass.webp" credit="Keepass / Xanzhu" alt="KeePass Logo"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/keepass.webp" credit="Keepass / Xanzhu" alt="KeePass Logo"></Media>
 
 Keepass is a great self-hosted solution for password managers, as it allows you to keep all of your data in your own hands. However, it might be a bit tricky for the average user as it requires a lot of configuration and your own hardware to host.
 
@@ -82,7 +82,7 @@ For more information on Keepass, visit the website at <PageLink title="keepass.i
 
 ### Browser / OS
 
-<Media source="/images/blog/PM/googlepass.webp" credit="Google" alt="Google password manager"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/googlepass.webp" credit="Google" alt="Google password manager"></Media>
 
 Quick and simple solutions when it comes to browser-based solutions are password managers that run entirely in the browser environment. You'll often notice that you'll be asked to save the password into the browser so it auto-fills the next time you visit. This is a password manager. While it may not be the most secure or accessible in cross-platform environments, it works well.
 
@@ -96,7 +96,7 @@ For more information on browser-based password managers, you can visit <PageLink
 
 ## Paid Solutions
 
-<Media source="/images/blog/PM/t3.webp" credit="Dashlane, NordPass, 1Password / Xanzhu" alt="Paid Password Manager Logo; Dashlane, NordPass, 1Password"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/t3.webp" credit="Dashlane, NordPass, 1Password / Xanzhu" alt="Paid Password Manager Logo; Dashlane, NordPass, 1Password"></Media>
 
 These are all paid services and they work well, often coming with a lot of other features that could be useful, such as VPNs or use in corporate environments.
 

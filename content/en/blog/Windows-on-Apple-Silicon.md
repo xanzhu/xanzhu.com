@@ -5,7 +5,7 @@ date: "2023-11-23"
 tag: "Guide"
 toc: true
 feature: true
-img: "/images/blog/wvm/wvm.png"
+img: "/images/blog/wvm/wvm.webp"
 alt: "2023 Macbook Pro Black Edition displaying icons of the three new chipsets"
 ---
 
@@ -35,7 +35,7 @@ Prerequisites:
 
 The application will look like this when opened
 
-<Media source="/images/blog/wvm/wvm-1.png" alt="UTM Application Opening Screen"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-1.webp" alt="UTM Application Opening Screen"></Media>
 
 ## CrystalFetch
 
@@ -46,7 +46,7 @@ This is a free tool what will help us to generate an updated windows ISO file ne
 
 Should look similar to this:
 
-<Media source="/images/blog/wvm/wvm-2.png" alt="CrystalFetch Application Opening Screen"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-2.webp" alt="CrystalFetch Application Opening Screen"></Media>
 
 3. Click on download
 
@@ -65,7 +65,7 @@ We can now setup our virtual machine!
 
 Should look similar to this
 
-<Media source="/images/blog/wvm/wvm-3.png" alt="UTM Configuration Screen For Virtual Machine"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-3.webp" alt="UTM Configuration Screen For Virtual Machine"></Media>
 
 1. Select the amount of RAM to be used for this virtual machine. 4096 is the default, which is equal to 4GB. Half of what your system is using is ideal, but this can be adjusted later on if needed. For now, leave it as the default.
 
@@ -77,7 +77,7 @@ Should look similar to this
 
 The virtual machine has now been created. You should see something similar to this.
 
-<Media source="/images/blog/wvm/wvm-4.png" alt="Showing UTM Virtual Machines"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-4.webp" alt="Showing UTM Virtual Machines"></Media>
 
 ## Running Virtual Machine
 
@@ -87,11 +87,11 @@ This will now boot up the virtual machine. During this process it will open up a
 
 2. Click inside this window and press any key.
 
-<Media source="/images/blog/wvm/wvm-5.png" alt="UTM showing prompt to press any key to proceed"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-5.webp" alt="UTM showing prompt to press any key to proceed"></Media>
 
 This step is important as if you don't press a key fast enough you will get the following screen.
 
-<Media source="/images/blog/wvm/wvm-5b.png" alt="UTM showing error prompt during boot"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-5b.webp" alt="UTM showing error prompt during boot"></Media>
 
 To solve this close the virtual machine and run it again or select the restart virtual machine button which is the triangle button.
 
@@ -101,7 +101,7 @@ If you keep getting the above error then refer to the Issues and bugs section of
 
 After doing this we will get to this screen where we can now configure the installation for windows.
 
-<Media source="/images/blog/wvm/wvm-6.png" alt="Windows ISO installation menu"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-6.webp" alt="Windows ISO installation menu"></Media>
 
 1. Select the language and press Next.
 
@@ -117,7 +117,7 @@ The Windows installer will now begin to install the required files for Windows. 
 
 After this has been completed, it will reboot a few times. Let it run without interfering. Once you reach the following screen, we need to make sure we eject the current ISO to prevent the installer from running again if we reboot.
 
-<Media source="/images/blog/wvm/wvm-7.png" alt="UTM guide on ejecting current ISO from Virtual Machine"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-7.webp" alt="UTM guide on ejecting current ISO from Virtual Machine"></Media>
 
 1. Click on the disc Icon
 2. Hover over CD/DVD and select eject.
@@ -132,7 +132,7 @@ After signing into your new virtual machine, you need to ensure Spice Guest Tool
 
 By default, the installation menu will pop up. Click Next to install and wait. This will install the drivers, so the virtual machine may flash or slow down until the installation is complete.
 
-<Media source="/images/blog/wvm/wvm-8.png" alt="UTM Spice Guest Tools Installer screen"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-8.webp" alt="UTM Spice Guest Tools Installer screen"></Media>
 
 If the virtual machine becomes unresponsive close and reboot the virtual machine.
 

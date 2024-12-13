@@ -1,7 +1,7 @@
 ---
 title: "Phishing: Text Message Scams"
 description: "Text scams are a real problem, but you don't have to be a victim. This article explains how text scams work, what to avoid, and how to stay safe online."
-img: "/images/blog/sep/17723.png"
+img: "/images/blog/sep/17723.webp"
 feature: true
 date: "2023-09-04"
 tag: Safety
@@ -34,7 +34,7 @@ Be mindful of the message; it will say what the authentication code is used for.
 
 Here is an example of a 2-Factor Authentication code you'd typically see:
 
-<Media source="/images/blog/sep/Uber.jpg" alt="Uber Authentication Code Example"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/Uber.webp" alt="Uber Authentication Code Example"></Media>
 
 - This code is from 3362.
 - It states the code is from Uber.
@@ -45,7 +45,7 @@ Here is an example of a 2-Factor Authentication code you'd typically see:
 
 Here is an example of a text scam:
 
-<Media source="/images/blog/sep/EURO.jpg" alt="Phishing Text example international"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/EURO.webp" alt="Phishing Text example international"></Media>
 
 - The message comes from +61 (Australian-based).
 - I didn't know this number and wasn't expecting it.
@@ -55,7 +55,7 @@ Here is an example of a text scam:
 <hr>
 
 Here’s another example:
-<Media source="/images/blog/sep/NZD.jpg" alt="Phishing Text example local"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/NZD.webp" alt="Phishing Text example local"></Media>
 
 - This message comes from +64 (New Zealand-based).
 - Mentions getting NZD, specifically for me.
@@ -64,7 +64,7 @@ Here’s another example:
 As you can see, the point of these text scams is for you to click on this link.
 
 A more recent example:
-<Media source="/images/blog/sep/nzta.png" alt="NZ Transport agency phishing example"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/nzta.webp" alt="NZ Transport agency phishing example"></Media>
 
 - Claims to be from NZ Transport Agency and is asking you to pay an outstanding fee.
 - This message is unexpected.
@@ -76,7 +76,7 @@ As for the links provided in these examples, they don't match any known website,
 In the above example, NZTA suggests that you may have an outstanding fee. Do not click on the link. Instead, go directly to your web browser and enter the official NZTA website.
 
 Lets compare the links used:
-<Media source="/images/blog/sep/compare.svg" alt="Comparing phishing link vs legitimate"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/compare.svg" alt="Comparing phishing link vs legitimate"></Media>
 
 Offical government based links will always have the .govt.nz domain.
 Always navigate to the offical website before entering sensitive information.

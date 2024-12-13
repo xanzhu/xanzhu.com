@@ -10,6 +10,8 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxt/image",
     "nuxt-security",
+    "@nuxt/fonts",
+    "nitro-cloudflare-dev",
   ],
 
   colorMode: {
@@ -18,11 +20,9 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: "https://xanzhu.com",
     defaultLocale: "en",
     lazy: true,
     strategy: "prefix_except_default",
-    langDir: "locales",
     locales: [
       {
         code: "en",
@@ -72,10 +72,8 @@ export default defineNuxtConfig({
     "/blog/**": { isr: true },
   },
 
-  plugins: [{ src: "~/plugins/vercel.ts", mode: "client" }],
-
   image: {
-    domains: ["images.pexels.com"],
+    domains: ["cdn.xanzhu.com"],
   },
 
   content: {
@@ -86,6 +84,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       WeatherAPI: "",
+      i18n: {
+        baseUrl: "https://xanzhu.com",
+      },
     },
   },
 
@@ -95,35 +96,53 @@ export default defineNuxtConfig({
     mode: "svg",
   },
 
-  // SECURITY V1
+  // SECURITY V1.5
   security: {
     nonce: true,
     ssg: {
       meta: true,
       hashScripts: true,
-      hashStyles: false,
+      hashStyles: true,
     },
     headers: {
       contentSecurityPolicy: {
+        "default-src": ["'self'", "https://*.xanzhu.com"],
         "script-src": [
           "'self'",
-          "https:",
-          "'unsafe-inline'",
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
+          "'unsafe-inline'",
+          "https://*.xanzhu.com",
+          "https://*.cloudflare.com",
         ],
-        "style-src": ["'self'", "https:", "'unsafe-inline'"],
+        "style-src": ["'self'", "'unsafe-inline'"],
         "base-uri": ["'none'"],
         "img-src": [
           "'self'",
-          "data:",
+          "https://cdn.xanzhu.com",
           "https://assets.lotofcarrots.com/media/home/section/desktop/4.webp",
           "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AI_features_feb6.gif",
           "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/feb_6_AI_hero.width-1000.format-webp.webp",
         ],
-        "font-src": ["'self'", "https:", "data:"],
+        "media-src": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Super_G_BRD2023_blogEXP_v024a.mp4",
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Docs_Web_030623_1.mp4",
+          "https://storage.quantum-engine.ai/Rabbits_Factory_4K_h264.mp4",
+          "https://assets.lotofcarrots.com/media/home/section/desktop/4.mp4",
+          "https://www.apple.com/105/media/us/macbook-air-13-and-15/2023/f52c7a72-dff4-4f3c-9511-bf08e46c6f5f/anim/design/hero/medium_2x.mp4",
+          "https://www.apple.com/105/media/us/macos/sonoma-preview/2023/e6d837c5-8a7e-49d8-b0bd-137b21320db3/anim/share-preview/large_2x.mp4",
+        ],
+        "font-src": ["'self'"],
         "object-src": ["'none'"],
         "script-src-attr": ["'none'"],
+        "connect-src": [
+          "'self'",
+          "https://*.xanzhu.com",
+          "https://*.cloudflare.com",
+          "https://api.weatherapi.com",
+          "https://api.iconify.design",
+          "ws://localhost:4000",
+        ],
         "frame-src": [
           "'self'",
           "https://www.youtube.com",
@@ -146,8 +165,8 @@ export default defineNuxtConfig({
   },
 
   robots: {
-    allow: "/",
-    disallow: "/cdn-cgi/", // Cloudflare Script
+    // Developer Build!
+    disallow: "/",
   },
 
   compatibilityDate: "2024-07-08",
@@ -155,5 +174,18 @@ export default defineNuxtConfig({
   // Experimental Features
   experimental: {
     buildCache: true,
+    headNext: true,
+  },
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  // Testing features
+  sourcemap: false,
+
+  nitro: {
+    future: {
+      nativeSWR: true,
+    },
   },
 });

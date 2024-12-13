@@ -3,7 +3,7 @@ title: "Rabbit R1: Hardware Meets AI"
 description: "A brand new device that takes the hassle and steps out of navigating the tech space. Less apps, more action."
 tag: "Technology"
 date: "2024-01-25"
-img: "/images/blog/R1/cover.png"
+img: "/images/blog/R1/cover.webp"
 feature: true
 alt: "Rabbit's R1 Hardware Device promotion image"
 ---
@@ -60,7 +60,7 @@ Rabbit is new, and we are interested in seeing what else they will do with Rabbi
 
 If you would like to learn more about <PageLink title="Rabbit" url="https://www.rabbit.tech/"></PageLink> as a company and what they do, check out their website and learn what else is on offer for the devices, including upcoming features and things they're working on, including features being introduced with their Large Action Model.
 
-<Media source="/images/blog/R1/inline-1.png" alt="Rabbit's R1 Hardware device a striking orange design with a screen and tactile buttons"></Media>
+<Media source="https://cdn.xanzhu.com/v1/rabbit-r1/inline-1.webp" alt="Rabbit's R1 Hardware device a striking orange design with a screen and tactile buttons"></Media>
 
 While this device is up for pre-order, if you are interested in playing around with AI and seeing the capabilities for free, check out <PageLink title="ChatGPT" url="https://chat.openai.com/"></PageLink>, <PageLink title="Bard" url="https://bard.google.com/chat"></PageLink>, or Try <PageLink title="CoPilot" url="https://www.microsoft.com/en-us/windows/copilot-ai-features"></PageLink> on Windows.
 

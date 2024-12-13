@@ -4,7 +4,7 @@ description: "一款全新的设备，可以省去麻烦，让您不再在科技
 tag: "Technology"
 date: "2024-01-25"
 feature: true
-img: "/images/blog/R1/cover.png"
+img: "/images/blog/R1/cover.webp"
 alt: "兔子R1硬件设备宣传图"
 ---
 
@@ -60,7 +60,7 @@ Rabbit 是新产品，我们有兴趣看看他们还会用 Rabbit OS 和 R1 做�
 
 如果您想了解更多 <PageLink title="Rabbit" url="https://www.rabbit.tech/"></PageLink> 作为一家公司以及他们所做的事情，请查看他们的网站并了解为这些设备提供的其他功能，包括即将推出的功能和他们正在开发的内容，包括通过大型动作模型引入的功能。
 
-<Media source="/images/blog/R1/inline-1.png" alt="Rabbit 的 R1 硬件设备采用醒目的橙色设计，配有屏幕和触觉按钮"></Media>
+<Media source="https://cdn.xanzhu.com/v1/rabbit-r1/inline-1.webp" alt="Rabbit 的 R1 硬件设备采用醒目的橙色设计，配有屏幕和触觉按钮"></Media>
 
 虽然该设备已接受预订，但如果您有兴趣尝试 AI 并免费了解其功能，请查看 <PageLink title="ChatGPT" url="https://chat.openai.com/"></PageLink>, <PageLink title="Bard" url="https://bard.google.com/chat"></PageLink>, or Try <PageLink title="CoPilot" url="https://www.microsoft.com/en-us/windows/copilot-ai-features"></PageLink> 在 Windows 上。
 
