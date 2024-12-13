@@ -1,8 +1,11 @@
 // uno.config.ts
-import { defineConfig, presetTypography } from "unocss";
-import presetUno from "@unocss/preset-uno";
-import transformerVariantGroup from "@unocss/transformer-variant-group";
-import transformerDirectives from "@unocss/transformer-directives";
+import {
+  defineConfig,
+  presetTypography,
+  presetUno,
+  transformerDirectives,
+  transformerVariantGroup,
+} from "unocss";
 
 export default defineConfig({
   presets: [
@@ -10,14 +13,15 @@ export default defineConfig({
     presetTypography({
       cssExtend: {
         h1: {
-          visbility: "hidden",
+          visibility: "hidden",
         },
         "h2 > a, h3 > a, h4 > a, h5 > a, h6 > a": {
           "pointer-events": "none",
           "text-decoration": "none",
         },
         "pre, code": {
-          "--uno": "dark:(bg-dark-800 text-light-700 border-dark-300) text-dark8",
+          "--uno":
+            "dark:(bg-dark-800 text-light-700 border-dark-300) text-dark8",
           border: "1px solid #d1d1d1",
           overflow: "hidden",
           "background-color": "#f1f1f1",
@@ -32,12 +36,24 @@ export default defineConfig({
           left: "0",
           width: "100%",
           height: "100%",
+          "border-radius": "5px",
         },
         ".ifr": {
           position: "relative",
           width: "100%",
           "padding-bottom": "56.25%",
           height: "0",
+        },
+        "figure figcaption": {
+          color: "#000",
+          "font-size": "12px",
+          "letter-spacing": "0.025em",
+          opacity: "0.7",
+          "--uno": "dark:text-white",
+        },
+        i: {
+          opacity: "0.8",
+          "font-weight": "300",
         },
       },
     }),
@@ -49,6 +65,19 @@ export default defineConfig({
         dark: "#007BFF", // text-brand-dark
         light: "#0067d4", // text-brand-light
       },
+      element: {
+        dark: "#050505",
+        light: "#fffffffa",
+      },
     },
+    fontFamily: {
+      sans: "Geist, system-ui, sans-serif",
+    },
+  },
+  shortcuts: {
+    "core-theme":
+      "bg-element-light dark:(bg-element-dark text-white) text-black",
+    "core-border": "dark:b-dark4 b-gray3 b-1 b-solid",
+    "core-ui": "dark:(bg-dark9 text-white) bg-gray1 text-black",
   },
 });

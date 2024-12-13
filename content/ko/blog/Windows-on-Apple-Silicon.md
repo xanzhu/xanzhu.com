@@ -5,7 +5,7 @@ date: "2023-11-23"
 tag: "가이드"
 toc: true
 feature: true
-img: "/images/blog/wvm/wvm.png"
+img: "/images/blog/wvm/wvm.webp"
 alt: "3가지 새로운 칩셋의 아이콘을 표시하는 2023년 Macbook Pro Black Edition"
 ---
 
@@ -35,7 +35,7 @@ alt: "3가지 새로운 칩셋의 아이콘을 표시하는 2023년 Macbook Pro 
 
 응용 프로그램을 열면 다음과 같이 표시됩니다.
 
-<Media source="/images/blog/wvm/wvm-1.png" alt="UTM 애플리케이션 오프닝 화면"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-1.webp" alt="UTM 애플리케이션 오프닝 화면"></Media>
 
 ## CrystalFetch
 
@@ -46,7 +46,7 @@ alt: "3가지 새로운 칩셋의 아이콘을 표시하는 2023년 Macbook Pro 
 
 다음과 유사해야 합니다.
 
-<Media source="/images/blog/wvm/wvm-2.png" alt="CrystalFetch 애플리케이션 시작 화면"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-2.webp" alt="CrystalFetch 애플리케이션 시작 화면"></Media>
 
 3. 다운로드를 클릭하세요
 
@@ -65,7 +65,7 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 이것과 비슷하게 보일 것입니다
 
-<Media source="/images/blog/wvm/wvm-3.png" alt="가상 머신의 UTM 구성 화면"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-3.webp" alt="가상 머신의 UTM 구성 화면"></Media>
 
 1. 이 가상 머신에 사용할 RAM의 양을 선택합니다. 4096이 기본값이며 4GB와 같습니다. 시스템이 사용하는 것의 절반이 이상적이지만 필요한 경우 나중에 조정할 수 있습니다. 지금은 기본값으로 두세요.
 
@@ -77,7 +77,7 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 이제 가상 머신이 생성되었습니다. 이와 비슷한 내용이 표시되어야 합니다.
 
-<Media source="/images/blog/wvm/wvm-4.png" alt="UTM 가상 머신 표시"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-4.webp" alt="UTM 가상 머신 표시"></Media>
 
 ## 가상 머신 실행
 
@@ -87,11 +87,11 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 2. 이 창 내부를 클릭하고 아무 키나 누르십시오.
 
-<Media source="/images/blog/wvm/wvm-5.png" alt="계속 진행하려면 아무 키나 누르라는 메시지를 표시하는 UTM"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-5.webp" alt="계속 진행하려면 아무 키나 누르라는 메시지를 표시하는 UTM"></Media>
 
 이 단계는 중요합니다. 키를 충분히 빨리 누르지 않으면 다음 화면이 표시되기 때문입니다.
 
-<Media source="/images/blog/wvm/wvm-5b.png" alt="부팅 오류를 표시하는 UTM"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-5b.webp" alt="부팅 오류를 표시하는 UTM"></Media>
 
 이 문제를 해결하려면 가상 머신을 닫았다가 다시 실행하거나 삼각형 버튼인 가상 머신 다시 시작 버튼을 선택하세요.
 
@@ -101,7 +101,7 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 이 작업을 수행하면 이제 Windows 설치를 구성할 수 있는 화면이 표시됩니다.
 
-<Media source="/images/blog/wvm/wvm-6.png" alt="Windows ISO 설치 메뉴"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-6.webp" alt="Windows ISO 설치 메뉴"></Media>
 
 1. 언어를 선택하고 다음을 누르세요.
 
@@ -117,7 +117,7 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 이 작업이 완료되면 몇 번 재부팅됩니다. 방해받지 않고 실행되도록 하세요. 다음 화면에 도달하면 재부팅 시 설치 프로그램이 다시 실행되지 않도록 현재 ISO를 꺼내야 합니다.
 
-<Media source="/images/blog/wvm/wvm-7.png" alt="가상 머신에서 현재 ISO를 꺼내는 방법에 대한 UTM 가이드"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-7.webp" alt="가상 머신에서 현재 ISO를 꺼내는 방법에 대한 UTM 가이드"></Media>
 
 1. 디스크 아이콘을 클릭합니다
 2. CD/DVD 위에 마우스를 놓고 꺼내기를 선택합니다.
@@ -132,7 +132,7 @@ ISO 파일을 다운로드해야 합니다. 파일 크기가 약 5GB이므로 �
 
 기본적으로 설치 메뉴가 나타납니다. 다음을 클릭하여 설치하고 기다리세요. 이렇게 하면 드라이버가 설치되므로 설치가 완료될 때까지 가상 머신이 깜박이거나 속도가 느려질 수 있습니다.
 
-<Media source="/images/blog/wvm/wvm-8.png" alt="UTM Spice 게스트 도구 설치 프로그램 화면"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m2-virtual-machine/wvm-8.webp" alt="UTM Spice 게스트 도구 설치 프로그램 화면"></Media>
 
 가상 머신이 응답하지 않으면 가상 머신을 닫고 재부팅하세요.
 

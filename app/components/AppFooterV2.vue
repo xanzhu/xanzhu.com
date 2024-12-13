@@ -1,0 +1,42 @@
+<template>
+    <div
+        class="flex flex-row space-x-2 bg-[#050505] text-white dark:(bg-[#fffffffa] text-black) justify-between px6 pt6 pb2 md:(p12 pb4) items-center border-t-1 b-0 border-dark-800 dark:border-light-700 b-solid sm:px6 md:px9 xl:px20 2xl:px43">
+        <div class="flex flex-col">
+            <div class="flex-col md:(flex-row items-center space-x-10 space-y-0) flex space-y-8">
+                <UiLogo class="text-inherit" />
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div v-for="(link, index) in links" :key="index">
+                        <NuxtLinkLocale
+                            class="font-medium text-inherit decoration-none rounded-md hover:(underline underline-solid underline-offset-4 underline-2) duration-400 transition ease-in-out"
+                            :to=link.url>{{
+                                t(link.name) }}
+                        </NuxtLinkLocale>
+                    </div>
+                </div>
+                <HomeSocialsCard class="mt-10 md:hidden" />
+            </div>
+            <p class="mt-5 font-normal text-sm text-light-3 dark:text-dark-300">
+                {{ t("Footer") }}
+                <NuxtLinkLocale to="/privacy-policy"
+                    class="font-semibold decoration-none text-inherit hover:(underline underline-2 underline-offset-4)">
+                    {{
+                        t('PP.title') }}
+                </NuxtLinkLocale>
+            </p>
+        </div>
+        <div class="hidden md:flex">
+            <HomeSocialsCard class="mb-5" />
+        </div>
+    </div>
+</template>
+<script setup lang="ts">
+const { t } = useI18n();
+
+const links = useNavLinks(
+    { name: "Links.home", url: "/" },
+    { name: "About.title", url: "/about" },
+    { name: "Links.blog", url: "/blog" },
+    { name: "Links.resources", url: "/resources" },
+    { name: "Links.analysis", url: "/analysis" },
+);
+</script>

@@ -1,7 +1,7 @@
 ---
 title: "案例研究：YouTube 主页上的定向网络钓鱼诈骗"
 date: "2024-01-29"
-img: "/images/blog/PS/j2-cover-2.png"
+img: "/images/blog/PS/j2-cover-2.webp"
 description: "探索网络钓鱼诈骗如何设法将自己推广到 YouTube 主页、逃避检测并给用户带来风险。"
 tag: "网络钓鱼"
 alt: "人行横道标志的图像，在黑白设置中显示突出显示的红手"
@@ -14,25 +14,25 @@ feature: true
 
 以下是向用户显示的内容的示例。 在隐身浏览器窗口中打开它，以表明它向平台上的新用户和活跃用户显示。
 
-<Media source="/images/blog/PS/j2-1.png" alt="YouTube 主页在目标视频旁边显示网络钓鱼诈骗的赞助视频"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-1.webp" alt="YouTube 主页在目标视频旁边显示网络钓鱼诈骗的赞助视频"></Media>
 
 诈骗的完美地点。 通常，此广告会出现在随机视频旁边，但今天我们收到了 YouTube 上广告现实的最后通牒。 网络钓鱼诈骗就在野兽先生的最新视频旁边宣传。
 
 在点击该视频初次看到该广告后，我们会看到一个快速动作视频，描述：“作为观看者，您如何赚到 X 笔钱！”，并将观看者引向评论部分。
 
-<Media source="/images/blog/PS/j2-3.png" alt="YouTube 的广告报告对话框，其中包含有关广告商的信息以及报告或阻止的选项"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-3.webp" alt="YouTube 的广告报告对话框，其中包含有关广告商的信息以及报告或阻止的选项"></Media>
 
 在评论中，固定评论或点赞评论将提供指向旨在收集用户信息（称为网络钓鱼诈骗）的网站的链接。
 
 该网站包含一个简单的号召性用语按钮“立即领取”，链接到外部网站，用户需要在其中输入信息才能解锁奖励或注册服务。
 
-<Media source="/images/blog/PS/j2-5.png" alt="用于诱骗用户的域名预览，并通过号召性用语诱使用户点击索取奖励"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-5.webp" alt="用于诱骗用户的域名预览，并通过号召性用语诱使用户点击索取奖励"></Media>
 
 由于该视频未公开，因此除非正在宣传广告，否则它不会出现在公众视野中。 这样可以一致地删除并重新上传视频。 这同样适用于评论，现有网站被删除，新网站将在评论中列出。
 
 这种情况已经发生很长时间了，它遵循相同的视频缩略图、相同的视频和相似的网站设计的结构。 宣传这些骗局的广告商在 YouTube 的广告商平台上进行了验证，并且通常是同一群人。
 
-<Media source="/images/blog/PS/j2-2.png" alt="YouTube 评论部分，广告商评论钓鱼网站的链接"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-2.webp" alt="YouTube 评论部分，广告商评论钓鱼网站的链接"></Media>
 
 通过 Google 的透明度服务查看广告商的广告，没有发现来自用户的广告。 托管视频的 YouTube 频道经常被删除并被类似的频道取代。
 
@@ -44,7 +44,7 @@ feature: true
 
 在写这份报告时，我们注意到另一个人的出现。 表明这个骗局是如何不断被复制的。 这种情况很可能发生在所有地区以及野兽先生内容特定人群的其他目标年龄组。
 
-<Media source="/images/blog/PS/j2-6.png" alt="YouTube 主页显示另一个在第一位置推广的网络钓鱼骗局。"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-6.webp" alt="YouTube 主页显示另一个在第一位置推广的网络钓鱼骗局。"></Media>
 
 举报此骗局或类似骗局的一般流程如下：
 
@@ -65,7 +65,7 @@ feature: true
 
 这是我们通常在野外看到的一个例子
 
-<Media source="/images/blog/PS/j2-4.png" alt="VirusTotal 网站显示 12 个从 Youtube 上的网络钓鱼网址中发现的检测"></Media>
+<Media source="https://cdn.xanzhu.com/v1/youtube-phish/j2-4.webp" alt="VirusTotal 网站显示 12 个从 Youtube 上的网络钓鱼网址中发现的检测"></Media>
 
 报告域名首先要做的是查看域名的 <PageLink title="whois" url="https://whois.domaintools.com/"></PageLink>，这将告诉我们域名提供商是谁， 然后可以直接向他们的滥用电子邮件地址报告。
 
@@ -73,7 +73,7 @@ feature: true
 
 尽管这已显着减少了一些内容，但仍有一些内容无法通过 YouTube 的垃圾邮件机器人检测系统。 我们看到的这种类型的骗局可能已经运作了很长时间，但很少受到关注。
 
-关于网络钓鱼的一般建议是避免点击链接并避免输入任何信息（例如登录名或类似信息），因为这是诈骗的重点。 信息将导致账户接管等。 详细了解如何使用 <PageLink title="2FA" url="https://xanzhu.com/zh/blog/2fa-protect-against-phishing-scams"></PageLink> 实施更好的身份验证实践。
+关于网络钓鱼的一般建议是避免点击链接并避免输入任何信息（例如登录名或类似信息），因为这是诈骗的重点。 信息将导致账户接管等。 详细了解如何使用 <PageLink title="2FA" url="/zh/blog/2fa-protect-against-phishing-scams"></PageLink> 实施更好的身份验证实践。
 
 这仍然是一场举报广告和视频以及直接举报列出的每个域的持续战斗。 说我们可以捕获所有这些是不现实的，但我们可以尝试减少我们遇到的任何情况。
 

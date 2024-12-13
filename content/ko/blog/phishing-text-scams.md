@@ -1,8 +1,7 @@
 ---
 title: "피싱: 문자 메시지 사기"
 description: "문자 메시지 사기는 실질적인 문제이지만 피해자가 될 필요는 없습니다. 이 기사에서는 문자 메시지 사기가 어떻게 작동하는지, 무엇을 피해야 하는지, 온라인에서 안전하게 지내는 방법을 설명합니다."
-img: "/images/blog/sep/17723.png"
-feature: true
+img: "/images/blog/sep/17723.webp"
 date: "2023-09-04"
 tag: 안전
 alt: "사람이 핸드폰을 들고 있습니다."
@@ -33,7 +32,7 @@ source: "Lindsey LaMont, unsplash"
 
 다음은 일반적으로 볼 수 있는 2단계 인증 코드의 예입니다:
 
-<Media source="/images/blog/sep/Uber.jpg" alt="Uber 인증 코드 예시"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/Uber.webp" alt="Uber 인증 코드 예시"></Media>
 
 - 이 코드는 3362번에서 왔습니다.
 - 코드가 Uber에서 온다고 명시되어 있습니다.
@@ -44,7 +43,7 @@ source: "Lindsey LaMont, unsplash"
 
 여기 문자 메시지 사기의 예가 있습니다:
 
-<Media source="/images/blog/sep/EURO.jpg" alt="국제적인 스미싱 텍스트 예시"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/EURO.webp" alt="국제적인 스미싱 텍스트 예시"></Media>
 
 - 메시지는 +61(호주 기반)에서 옵니다.
 - 이 번호를 모르고 예상하지 않았습니다.
@@ -54,7 +53,7 @@ source: "Lindsey LaMont, unsplash"
 <hr>
 
 여기 또 다른 예입니다:
-<Media source="/images/blog/sep/NZD.jpg" alt="지역적인 스미싱 텍스트 예시"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/NZD.webp" alt="지역적인 스미싱 텍스트 예시"></Media>
 
 - 이 메시지는 +64(뉴질랜드 기반)에서 옵니다.
 - NZD를 받게 될 것임을 구체적으로 언급합니다.
@@ -63,7 +62,7 @@ source: "Lindsey LaMont, unsplash"
 보시다시피, 이러한 문자 메시지 사기의 목적은 귀하가 이 링크를 클릭하도록 하는 것입니다.
 
 최근의 예:
-<Media source="/images/blog/sep/nzta.png" alt="NZ Transport Agency 스미싱 예시"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/nzta.webp" alt="NZ Transport Agency 스미싱 예시"></Media>
 
 - NZ Transport Agency로부터 온 것으로 주장하며 미납 요금을 지불하라고 요청합니다.
 - 이 메시지는 예상치 못한 것입니다.
@@ -75,7 +74,7 @@ source: "Lindsey LaMont, unsplash"
 위의 예에서 NZTA는 여러분이 미납 요금이 있을 수 있다고 제안합니다. 링크를 클릭하지 마십시오. 대신 공식 NZTA 웹사이트로 직접 이동하십시오.
 
 링크를 비교해 봅시다:
-<Media source="/images/blog/sep/compare.svg" alt="스미싱 링크 대 비정상적인 링크 비교"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/compare.svg" alt="스미싱 링크 대 비정상적인 링크 비교"></Media>
 
 공식 정부 기반 링크는 항상 .govt.nz 도메인을 가지고 있습니다.
 민감한 정보를 입력하기 전에 항상 공식 웹사이트로 이동하십시오.

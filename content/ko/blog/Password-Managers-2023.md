@@ -7,6 +7,7 @@ toc: true
 img: "/images/blog/PM/PM.webp"
 alt: "아이폰을 들고 있는 사람"
 source: "Mikhail Nilov, Pexels"
+feature: true
 ---
 
 동일한 암호의 변형을 사용하든 여러 플랫폼에서 동일한 암호를 사용하든 암호를 안전하고 고유하게 유지하는 것은 어려운 과정일 수 있습니다.
@@ -46,7 +47,7 @@ p@s$w0rD!2E
 
 ### Bitwarden
 
-<Media source="/images/blog/PM/bitwarden.webp" credit="Bitwarden / Xanzhu" alt="Bitwarden 암호 관리자 로고"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/bitwarden.webp" credit="Bitwarden / Xanzhu" alt="Bitwarden 암호 관리자 로고"></Media>
 
 사용할 수 있는 최고의 무료 암호 관리자 중 하나는 Bitwarden입니다. 옵션과 기능을 늘리는 유료 요금제를 제공하지만 대부분의 사용자에게는 <PageLink title="무료 요금제" url="https://bitwarden.com/pricing/"></PageLink> 로도 충분합니다.
 
@@ -69,7 +70,7 @@ Bitwarden의 몇 가지 주목할만한 기능은 다음과 같습니다.
 
 ### Keepass
 
-<Media source="/images/blog/PM/keepass.webp" credit="Keepass / Xanzhu" alt="KeePass Logo"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/keepass.webp" credit="Keepass / Xanzhu" alt="KeePass Logo"></Media>
 
 Keepass는 암호 관리자를 위한 훌륭한 자체 호스팅 솔루션으로 모든 데이터를 직접 관리할 수 있습니다. 그러나 호스팅하려면 많은 구성과 자체 하드웨어가 필요하기 때문에 일반 사용자에게는 약간 까다로울 수 있습니다.
 
@@ -83,7 +84,7 @@ Keepass에 대한 자세한 내용은 <PageLink title="keepass.info" url="https:
 
 ### 브라우저/OS
 
-<Media source="/images/blog/PM/googlepass.webp" credit="Google" alt="Google 비밀번호 관리자"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/googlepass.webp" credit="Google" alt="Google 비밀번호 관리자"></Media>
 
 브라우저 기반 솔루션과 관련하여 빠르고 간단한 솔루션은 전적으로 브라우저 환경에서 실행되는 암호 관리자입니다. 다음에 방문할 때 자동으로 채워지도록 브라우저에 암호를 저장하라는 메시지가 표시되는 경우가 많습니다. 이것은 암호 관리자입니다. 크로스 플랫폼 환경에서 가장 안전하거나 액세스할 수는 없지만 잘 작동합니다.
 
@@ -97,7 +98,7 @@ Keepass에 대한 자세한 내용은 <PageLink title="keepass.info" url="https:
 
 ## 유료 솔루션
 
-<Media source="/images/blog/PM/t3.webp" credit="Dashlane, NordPass, 1Password / Xanzhu" alt="유료 Password Manager 로고 Dashlane, NordPass, 1비밀번호"></Media>
+<Media source="https://cdn.xanzhu.com/v1/password-managers/t3.webp" credit="Dashlane, NordPass, 1Password / Xanzhu" alt="유료 Password Manager 로고 Dashlane, NordPass, 1비밀번호"></Media>
 
 이것들은 모두 유료 서비스이며 잘 작동하며 종종 VPN이나 기업 환경에서 사용하는 것과 같이 유용할 수 있는 많은 다른 기능과 함께 제공됩니다.
 

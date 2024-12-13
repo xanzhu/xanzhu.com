@@ -1,8 +1,7 @@
 ---
 title: "钓鱼: 短信诈骗"
 description: "短信诈骗是一个真正的问题，但您不必成为受害者。本文解释了短信诈骗的工作原理，需要避免什么，以及如何在线保持安全。"
-img: "/images/blog/sep/17723.png"
-feature: true
+img: "/images/blog/sep/17723.webp"
 date: "2023-09-04"
 toc: false
 tag: 安全
@@ -35,7 +34,7 @@ source: "Lindsey LaMont, unsplash"
 
 以下是您通常会看到的两因素身份验证代码示例：
 
-<Media source="/images/blog/sep/Uber.jpg" alt="Uber身份验证代码示例"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/Uber.webp" alt="Uber身份验证代码示例"></Media>
 
 - 这个代码来自 3362。
 - 它声明这个代码来自 Uber。
@@ -46,7 +45,7 @@ source: "Lindsey LaMont, unsplash"
 
 这是一个文本诈骗的示例：
 
-<Media source="/images/blog/sep/EURO.jpg" alt="国际钓鱼短信示例"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/EURO.webp" alt="国际钓鱼短信示例"></Media>
 
 - 这条消息来自+61（澳大利亚基地）。
 - 我不认识这个号码，也没有预料到它。
@@ -56,7 +55,7 @@ source: "Lindsey LaMont, unsplash"
 <hr>
 
 这里是另一个例子：
-<Media source="/images/blog/sep/NZD.jpg" alt="本地钓鱼短信示例"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/NZD.webp" alt="本地钓鱼短信示例"></Media>
 
 - 这条消息来自+64（基于新西兰）。
 - 提到了获取新西兰元（NZD），特别是为了我。
@@ -65,7 +64,7 @@ source: "Lindsey LaMont, unsplash"
 正如您所看到的，这些文本诈骗的目的是让您点击这个链接。
 
 一个更近期的例子：
-<Media source="/images/blog/sep/nzta.png" alt="新西兰交通管理局钓鱼示例"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/nzta.webp" alt="新西兰交通管理局钓鱼示例"></Media>
 
 - 声称来自新西兰交通局（NZ Transport Agency）并要求您支付未付费用。
 - 这条消息出乎意料。
@@ -77,7 +76,7 @@ source: "Lindsey LaMont, unsplash"
 在上述示例中，NZTA 暗示您可能有未付费用。不要点击链接。而是直接打开您的网络浏览器，输入官方 NZTA 网站。
 
 让我们比较所使用的链接：
-<Media source="/images/blog/sep/compare.svg" alt="比较钓鱼链接与合法链接"></Media>
+<Media source="https://cdn.xanzhu.com/v1/text-scams/compare.svg" alt="比较钓鱼链接与合法链接"></Media>
 
 官方政府基础链接将始终具有 .govt.nz 域名。
 在输入敏感信息之前，务必导航至官方网站。
