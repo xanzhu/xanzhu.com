@@ -30,7 +30,7 @@
   "devDependencies": {
     "@iconify-json/fluent": "^1.2.8",
     "@iconify-json/line-md": "^1.2.3",
-    "@nuxt/devtools": "^1.6.3",
+    "@nuxt/devtools": "^1.6.4",
     "@unocss/nuxt": "^0.65.1",
     "@unocss/preset-typography": "^0.65.1",
     "@unocss/preset-uno": "^0.65.1",
