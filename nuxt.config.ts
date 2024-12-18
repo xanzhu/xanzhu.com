@@ -123,6 +123,8 @@ export default defineNuxtConfig({
           "https://assets.lotofcarrots.com/media/home/section/desktop/4.webp",
           "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AI_features_feb6.gif",
           "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/feb_6_AI_hero.width-1000.format-webp.webp",
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_Fig1.width-1000.format-webp.webp",
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_Fig4.width-1000.format-webp.webp",
         ],
         "media-src": [
           "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Super_G_BRD2023_blogEXP_v024a.mp4",

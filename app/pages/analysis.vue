@@ -117,9 +117,3 @@ onUnmounted(() => {
 const seoImage = 'https://images.pexels.com/photos/27141316/pexels-photo-27141316.jpeg';
 useLangMeta('analysis.meta', seoImage);
 </script>
-
-<style scoped>
-body {
-  font-family: 'Inter', sans-serif;
-}
-</style>
