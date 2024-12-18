@@ -70,13 +70,16 @@ export default defineConfig({
         light: "#fffffffa",
       },
     },
+    // fontFamily: {
+    //   sans: "Geist, system-ui, sans-serif",
+    // },
     fontFamily: {
-      sans: "Geist, system-ui, sans-serif",
+      sans: "Geist-sans, system-ui, sans-serif",
     },
   },
   shortcuts: {
     "core-theme":
-      "bg-element-light dark:(bg-element-dark text-white) text-black",
+    "bg-element-light dark:(bg-element-dark text-white) text-black",
     "core-border": "dark:b-dark4 b-gray3 b-1 b-solid",
     "core-ui": "dark:(bg-dark9 text-white) bg-gray1 text-black",
   },
