@@ -61,7 +61,7 @@ importers:
         specifier: ^1.2.3
         version: 1.2.4
       '@nuxt/devtools':
-        specifier: ^1.6.3
+        specifier: ^1.6.4
         version: 1.6.4(rollup@4.28.1)(vite@5.4.11(@types/node@22.10.2)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
       '@unocss/nuxt':
         specifier: ^0.65.1
