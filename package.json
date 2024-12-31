@@ -1,6 +1,6 @@
 {
   "name": "xanzhu.com",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -30,11 +30,11 @@
   "devDependencies": {
     "@iconify-json/fluent": "^1.2.11",
     "@iconify-json/line-md": "^1.2.4",
-    "@nuxt/devtools": "^1.6.4",
-    "@unocss/nuxt": "^0.65.2",
-    "@unocss/preset-typography": "^0.65.2",
-    "@unocss/preset-uno": "^0.65.2",
-    "@unocss/transformer-directives": "^0.65.2",
-    "@unocss/transformer-variant-group": "^0.65.2"
+    "@nuxt/devtools": "^1.7.0",
+    "@unocss/nuxt": "^0.65.3",
+    "@unocss/preset-typography": "^0.65.3",
+    "@unocss/preset-uno": "^0.65.3",
+    "@unocss/transformer-directives": "^0.65.3",
+    "@unocss/transformer-variant-group": "^0.65.3"
   }
 }
