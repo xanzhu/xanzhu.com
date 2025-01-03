@@ -1,18 +1,18 @@
 <template>
   <div class="flex flex-col sm:flex-row sm:justify-evenly sm:gap-10 items-center mt-10">
     <div v-if="prev" class="w-[250px]">
-      <NuxtLink :to="prev._path" :aria-label="t('Blog.previous')"
+      <NuxtLink :to="prev._path" :aria-label="t('Blog.previous')" rel="prev"
         class="group relative flex flex-col transition-all duration-300 no-underline">
         <div class="relative overflow-hidden rounded-lg">
           <NuxtImg :src="prev.img" height="150" width="250"
             class="object-cover transition-transform duration-500 group-hover:scale-105 group-focus-within:scale-105"
-            :alt="prev.alt" loading="lazy" />
+            :alt="prev.alt" loading="lazy" decoding="async" />
           <div class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
           <div class="absolute inset-0 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg"
               class="w-8 h-8 text-white opacity-0 transform translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round">
+              stroke-linejoin="round" aria-hidden="true">
               <path d="M15 18l-6-6 6-6" />
             </svg>
           </div>
@@ -28,18 +28,18 @@
       </NuxtLink>
     </div>
     <div v-if="next" class="w-[250px]">
-      <NuxtLink :to="next._path" :aria-label="t('Blog.next')"
+      <NuxtLink :to="next._path" :aria-label="t('Blog.next')" rel="next"
         class="group relative flex flex-col transition-all duration-300 no-underline">
         <div class="relative overflow-hidden rounded-lg">
           <NuxtImg :src="next.img" height="150" width="250"
             class="object-cover transition-transform duration-500 group-hover:scale-105 group-focus-within:scale-105"
-            :alt="next.alt" loading="lazy" />
+            :alt="next.alt" loading="lazy" decoding="async" />
           <div class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
           <div class="absolute inset-0 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg"
               class="w-8 h-8 text-white opacity-0 transform translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round">
+              stroke-linejoin="round" aria-hidden="true">
               <path d="M9 18l6-6-6-6" />
             </svg>
           </div>
@@ -56,14 +56,15 @@
     </div>
   </div>
 </template>
+
 <script setup lang="ts">
 const { t } = useI18n();
 
-export interface PrevNext {
-  title?: string;
-  _path?: string;
-  img?: string;
-  alt?: string;
+interface PrevNext {
+  title: string;
+  _path: string;
+  img: string;
+  alt: string;
 }
 
 defineProps<{
