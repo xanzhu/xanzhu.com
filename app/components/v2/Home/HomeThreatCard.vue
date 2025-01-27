@@ -9,37 +9,35 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
-      <div class="bg-zinc-900 rounded-lg p-3 sm:p-4">
+      <section aria-labelledby="regional-threats-title" class="bg-zinc-900 rounded-lg p-3 sm:p-4">
         <div class="flex items-center mb-3 sm:mb-4">
           <Icon name="lucide:alert-triangle" class="h-5 w-5 text-4 mr-2 text-yellow-4 flex-shrink-0" />
-          <h3 class="text-lg sm:text-xl font-semibold text-yellow-4">
+          <h3 id="regional-threats-title" class="text-lg sm:text-xl font-semibold text-yellow-4">
             {{ t('threatCard.regional.title') }}
           </h3>
         </div>
-        <ul class="space-y-3 list-none p-0">
-          <div v-for="threat in threats" :key="threat.id" :class="[
+        <div role="list" class="space-y-3">
+          <div v-for="threat in threats" :key="threat.id" role="listitem" :class="[
             'bg-zinc-800 p-3 rounded transition-all hover:bg-zinc-700 cursor-pointer border-l-4',
           ]">
-            <li class="flex items-center" tabindex="0">
-              <span class=" text-3xl font-bold text-white op70 px4">{{
-                threat.id }}.</span>
+            <div class="flex items-center" tabindex="0">
+              <span class="text-3xl font-bold text-white op70 px4">{{ threat.id }}.</span>
               <p class="text-white font-medium text-sm sm:text-base">
                 {{ threat.name }}
               </p>
-            </li>
+            </div>
           </div>
-        </ul>
-      </div>
-
-      <div class=" bg-zinc-900 rounded-lg p-3 sm:p-4">
+        </div>
+      </section>
+      <section aria-labelledby="recent-breaches-title" class="bg-zinc-900 rounded-lg p-3 sm:p-4">
         <div class="flex items-center mb-3 sm:mb-4">
           <Icon name="lucide:lock" class="h-5 w-5 text-white mr-2 flex-shrink-0" aria-hidden="true" />
-          <h3 class="text-lg sm:text-xl font-semibold text-white">
+          <h3 id="recent-breaches-title" class="text-lg sm:text-xl font-semibold text-white">
             {{ t('threatCard.recent.title') }}
           </h3>
         </div>
-        <div class="space-y-3">
-          <div v-for="breach in breaches" :key="breach.id" :class="[
+        <div role="list" class="space-y-3">
+          <div v-for="breach in breaches" :key="breach.id" role="listitem" :class="[
             'bg-yellow-4 p-3 rounded transition-all hover:bg-yellow-5 cursor-pointer border-l-4',
           ]">
             <NuxtLink :to="breach.reference"
@@ -62,7 +60,7 @@
             </NuxtLink>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <p class="text-xs sm:text-sm text-inhert op70 mt-4 px-1">
       {{ t('threatCard.source') }}
