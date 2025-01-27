@@ -2,6 +2,7 @@
   <footer
     class="text-inherit px-6 md:px-20 lg:px-40 justify-center py-6 border-t-dark-4/10 dark:border-t-dark-2/30 border-t-1 border-solid border-b-none border-r-none border-l-none bg-inherit">
     <div class="flex flex-col md:flex-row justify-between items-start">
+      <UiLogo class="text-inherit" />
       <nav :aria-label="t('footer.sr.community')">
         <FooterItem :title="t('footer.community')" :links="[
           { text: t('footer.github'), href: 'https://github.com/xanzhu', external: true },
