@@ -4,11 +4,9 @@
       <h2 class="text-xl sm:text-2xl md:text-4xl font-bold text-black text-center sm:text-left mb-2 sm:mb-0">
         {{ t('threatCard.title') }}
       </h2>
-      <div class="h-8 w-8 sm:h-12 sm:w-12 text-black">
-        <Icon name="lucide:shield" class="w-full h-full" aria-hidden="true" />
-      </div>
+      <Icon name="lucide:shield" class="h-8 w-8 sm:h-12 sm:w-12 text-black" aria-hidden="true" />
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+    <div class="grid md:grid-cols-2 gap-3 sm:gap-4">
       <section aria-labelledby="regional-threats-title" class="bg-zinc-900 rounded-lg p-3 sm:p-4">
         <div class="flex items-center mb-3 sm:mb-4">
           <Icon name="lucide:alert-triangle" class="h-5 w-5 text-4 mr-2 text-yellow-4 flex-shrink-0" />
@@ -16,18 +14,15 @@
             {{ t('threatCard.regional.title') }}
           </h3>
         </div>
-        <div role="list" class="space-y-3">
-          <div v-for="threat in threats" :key="threat.id" role="listitem" :class="[
-            'bg-zinc-800 p-3 rounded transition-all hover:bg-zinc-700 cursor-pointer border-l-4',
-          ]">
-            <div class="flex items-center" tabindex="0">
-              <span class="text-3xl font-bold text-white op70 px4">{{ threat.id }}.</span>
-              <p class="text-white font-medium text-sm sm:text-base">
-                {{ threat.name }}
-              </p>
-            </div>
-          </div>
-        </div>
+        <ul role="list" class="space-y-3 p0">
+          <li v-for="threat in threats" :key="threat.id"
+            class="bg-zinc-800 p-3 rounded transition-all hover:bg-zinc-700 cursor-pointer border-l-4 flex items-center">
+            <span class="text-3xl font-bold text-white op70 px4">{{ threat.id }}.</span>
+            <p class="text-white font-medium text-sm sm:text-base">
+              {{ threat.name }}
+            </p>
+          </li>
+        </ul>
       </section>
       <section aria-labelledby="recent-breaches-title" class="bg-zinc-900 rounded-lg p-3 sm:p-4">
         <div class="flex items-center mb-3 sm:mb-4">
@@ -36,33 +31,30 @@
             {{ t('threatCard.recent.title') }}
           </h3>
         </div>
-        <div role="list" class="space-y-3">
-          <div v-for="breach in breaches" :key="breach.id" role="listitem" :class="[
-            'bg-yellow-4 p-3 rounded transition-all hover:bg-yellow-5 cursor-pointer border-l-4',
-          ]">
+        <ul role="list" class="space-y-3 p0">
+          <li v-for="breach in breaches" :key="breach.id"
+            class="bg-yellow-4 p-3 rounded transition-all hover:bg-yellow-5 cursor-pointer border-l-4">
             <NuxtLink :to="breach.reference"
               class="grid grid-cols-[1fr,auto] gap-2 items-start decoration-none relative" target="_blank"
               :aria-label="`${breach.name} - ${breach.subtext} ` + t('threatCard.ariaLabel')">
               <div class="min-w-0">
-                <p class="text-black font-semibold text-sm sm:text-base truncate">
+                <p class="text-black font-semibold truncate text-sm sm:text-base">
                   {{ breach.name }}
                 </p>
-                <p class="text-black/80 text-xs sm:text-sm mt-0.5 truncate">
+                <p class="text-black/80 truncate text-xs sm:text-sm mt-0.5">
                   {{ breach.subtext }}
                 </p>
               </div>
-              <div class="flex-shrink-0">
-                <span class="text-xs font-bold bg-black text-yellow-4 px-2 py-1 rounded whitespace-nowrap">
-                  {{ breach.date }}
-                </span>
-              </div>
+              <span class="text-xs font-bold bg-black text-yellow-4 px-2 py-1 rounded whitespace-nowrap mr-auto">
+                {{ breach.date }}
+              </span>
               <Icon name="lucide:external-link" class="absolute right-0 h5 w5 text-black" aria-hidden="true" />
             </NuxtLink>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </div>
-    <p class="text-xs sm:text-sm text-inhert op70 mt-4 px-1">
+    <p class="text-xs sm:text-sm text-inherit op70 mt-4 px-1">
       {{ t('threatCard.source') }}
     </p>
   </div>
