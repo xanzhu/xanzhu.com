@@ -28,7 +28,9 @@ After performing benchmarks, Willow has demonstrated the capability to complete 
 
 The development of this chip has been 10 years in the making. Google’s Quantum AI, founded in 2012, has consistently pursued the vision of building large-scale quantum computers to advance scientific discoveries.
 
+<div class="ifr">
 <iframe credentialless width="560" height="315" src="https://www.youtube.com/embed/l_KrC1mzd0g?si=1QVYdmS9NURCuyO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### Quantum Error Correction
 
