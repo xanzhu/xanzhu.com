@@ -61,7 +61,7 @@
 const { t } = useI18n();
 
 interface PrevNext {
-  title: string;
+  title?: string;
   _path: string;
   img: string;
   alt: string;
