@@ -6,12 +6,12 @@
         {{ t("Blog.description") }}
       </p>
     </div>
-    <section
-      class="grid grid-cols-1 gap-5 md:(grid-cols-2 gap-10) lg:(grid-cols-3) sm:(py-15 px-10) rounded-sm p-4">
-      <div v-if="posts" v-for="(article, $index) in posts" :key="`fe-${$index}`">
+    <section class="grid grid-cols-1 gap-5 md:(grid-cols-2 gap-10) lg:(grid-cols-3) sm:(py-15 px-10) rounded-sm p-4"
+      v-if="posts && posts.length">
+      <div v-for="article in posts" :key="article._path">
         <NuxtLinkLocale class="group flex flex-col no-underline" :to="article._path">
           <NuxtImg crossorigin="anonymous" v-if="article.img" :alt="article.alt" :title="article.alt" loading="lazy"
-            height="369" width="577" object-fit="contain"
+            height="369" width="577" object-fit="contain" format="webp"
             class="rounded-md h-full w-full transform md:(transition duration-400 ease-in-out) md:group-hover:scale-102 b-1 b-solid dark:b-dark-700 b-light-700"
             :src="article.img" />
           <div class="text-black dark:text-white h-auto rounded-b-md">
@@ -20,13 +20,17 @@
               <Date v-if="article.date" :date="article.date" />
               <p v-if="article.tag">{{ article.tag }}</p>
             </div>
-            <h2 class="text-xl font-semibold decoration-2 group-hover:(underline underline-offset-6) m0"
-              v-html="article.title" />
-            <p class="op70 font-300" v-html="article.description" />
+            <h2 class="text-xl font-semibold decoration-2 group-hover:(underline underline-offset-6) m0">
+              {{ article.title }}
+            </h2>
+            <p class="op70 font-300">
+              {{ article.description }}
+            </p>
           </div>
         </NuxtLinkLocale>
       </div>
     </section>
+    <p v-else class="text-center op70">No posts available.</p>
   </main>
 </template>
 <script setup lang="ts">

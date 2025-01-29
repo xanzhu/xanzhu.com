@@ -2,12 +2,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/i18n",
+    "@nuxtjs/robots",
+    "@nuxtjs/sitemap",
     "@nuxt/content",
     "@unocss/nuxt",
-    "@nuxtjs/sitemap",
     "@nuxtjs/color-mode",
     "@nuxt/icon",
-    "@nuxtjs/robots",
+
     "@nuxt/image",
     "nuxt-security",
     "@nuxt/fonts",
@@ -58,7 +59,6 @@ export default defineNuxtConfig({
 
   sitemap: {
     autoI18n: true,
-    strictNuxtContentPaths: true,
     autoLastmod: true,
     xslColumns: [
       { label: "URL", width: "50%" },
@@ -83,6 +83,7 @@ export default defineNuxtConfig({
   // API
   runtimeConfig: {
     public: {
+      Version: "1.0.12",
       WeatherAPI: "",
       i18n: {
         baseUrl: "https://xanzhu.com",
@@ -170,7 +171,7 @@ export default defineNuxtConfig({
     allow: "/",
   },
 
-  compatibilityDate: "2024-07-08",
+  compatibilityDate: "2024-11-01",
 
   // Experimental Features
   experimental: {

@@ -29,7 +29,7 @@ Willow는 벤치마크를 수행한 후 5분 이내에 표준 벤치마크 계�
 이 칩의 개발은 10년이 걸렸습니다. 2012년에 설립된 Google의 Quantum AI는 과학적 발견을 발전시키기 위해 대규모 양자 컴퓨터를 구축한다는 비전을 꾸준히 추구해 왔습니다.
 
 <div class="ifr">
-<iframe credentialless width="560" height="315" src="https://www.youtube.com/embed/l_KrC1mzd0g?si=1QVYdmS9NURCuyO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe credentialless width="560" height="315" src="https://www.youtube.com/embed/l_KrC1mzd0g?si=1QVYdmS9NURCuyO8" title="Google의 Willow 양자 컴퓨터 소개 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ### 양자 오류 수정

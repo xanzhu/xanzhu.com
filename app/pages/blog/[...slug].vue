@@ -15,7 +15,7 @@
         <hr class="core-ui core-border op40 rounded-md w-80%">
         <div v-if="post._path && post.title">
           <h4 class="mt5 text-center font-normal text-lg op90">{{ t('share.title') }}</h4>
-          <BlogSocialShare :post="{ _path: post._path, title: post.title }" />
+          <LazyBlogSocialShare :post="{ _path: post._path, title: post.title }" />
         </div>
       </div>
       <LazyBlogPrevNext :prev="prev" :next="next" />

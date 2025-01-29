@@ -1,14 +1,10 @@
 <template>
     <main class="flex flex-col justify-center">
-        <!-- <section class="relative min-h-screen flex justify-center">
-            <UiSvg loadSVG="beta02" class="hidden md:flex" />
-            <HomeHero class="z1" />
-        </section> -->
-        <HomeHero />
-        <LazyHomeCompany />
-        <LazyHomeArticleFeature class="min-h-screen" />
+        <V2HomeHero />
+        <LazyV2HomeBrandList />
+        <LazyV2HomeBlogFeature class="min-h-screen" />
         <LazyHomePagesCard class="my-20" />
-        <LazyHomeThreatCard />
+        <LazyV2HomeThreatCard class="mt-20" />
     </main>
 </template>
 <script setup lang="ts">

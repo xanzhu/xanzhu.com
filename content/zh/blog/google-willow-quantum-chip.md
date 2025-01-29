@@ -26,10 +26,10 @@ Willow 取得的最重大突破是它能够减少错误。
 
 在执行基准测试后，Willow 已证明能够在五分钟内完成标准基准计算。相比之下，传统的超级计算机需要 10 千万亿年（10^25 年）才能完成同样的任务。
 
-这款芯片的研发历时10年，谷歌量子人工智能实验室成立于2012年，始终致力于打造大规模量子计算机，推动科学发现。
+这款芯片的研发历时 10 年，谷歌量子人工智能实验室成立于 2012 年，始终致力于打造大规模量子计算机，推动科学发现。
 
 <div class="ifr">
-<iframe credentialless width="560" height="315" src="https://www.youtube.com/embed/l_KrC1mzd0g?si=1QVYdmS9NURCuyO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe credentialless width="560" height="315" src="https://www.youtube.com/embed/l_KrC1mzd0g?si=1QVYdmS9NURCuyO8" title="谷歌量子计算机 Willow 介绍视频" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ### 量子纠错

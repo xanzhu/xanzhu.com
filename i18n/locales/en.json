@@ -33,7 +33,6 @@
       "building-3": "tall building"
     }
   },
-  "Footer": "© Xanzhu 2024. All Rights reserved.",
   "Error": {
     "404": {
       "title": "Page Not Found",
@@ -126,24 +125,6 @@
     "linkedin": "Share this on LinkedIn",
     "email": "Share this page via email",
     "title": "Share this article!"
-  },
-  "About": {
-    "p1": "Cybersecurity is a crucial part of the internet and is a growing concern for many users and businesses. Attacks can strike at any moment, devastating individuals and organisations. That's why we created Xanzhu.",
-    "p2": "Our mission is to become a leading source for information and knowledge on security, privacy, and accessibility. ",
-    "p3": "We want to provide a space for technology lovers, as well as average consumers and business owners, to gain insight into how to protect themselves online.",
-    "p4": "Knowing how to protect yourself or your business is important. Privacy and security should be a top priority.",
-    "p5": "We are new and will likely make a few mistakes. But we're passionate about making the internet a safer place, and we hope you'll join us in developing the next standard of security practices and guidelines.",
-    "h1": "About Xanzhu.com",
-    "description": "Xanzhu.com - Your cybersecurity hub. Protecting you online with valuable insights on security, privacy, and accessibility. Join us!",
-    "title": "About"
-  },
-  "PP": {
-    "title": "Privacy Policy",
-    "description": "Review our privacy policy statement",
-    "section-one": "We value privacy and respect the privacy of those who visit our website. No identifiable information is stored or accessed without your permission to ensure that we do not infringe upon your privacy.",
-    "section-two": "Because our site contains links to third-party websites, we cannot prevent tracking outside of our domain.",
-    "section-three": "Usage data that your browser provides (User-Agent), includes IP addresses, browsers and devices used. This data is used for metrics and server communications.",
-    "date": "Modified"
   },
   "home": {
     "latest": "RECENT POSTS",
@@ -246,6 +227,30 @@
     "meta": {
       "title": "Cybersecurity Analysis | Trends & Case Studies",
       "description": "Cybersecurity analysis from Xanzhu: Expert insights, trending threats, and real-world case studies."
+    }
+  },
+  "footer": {
+    "version": "Version",
+    "latest": "Latest",
+    "tools": "Tools",
+    "community": "Community",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "about": "About",
+    "brand": "Brand",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "blog": "Blog",
+    "resources": "Resources",
+    "company": "Company",
+    "legal": "Legal",
+    "copyright": "© Xanzhu 2025. All Rights reserved.",
+    "sr": {
+      "community": "Community Links",
+      "company": "Company Links",
+      "legal": "Legal Links",
+      "resource": "Resource Links",
+      "blog": "Blog Links"
     }
   }
 }
