@@ -83,7 +83,7 @@ export default defineNuxtConfig({
   // API
   runtimeConfig: {
     public: {
-      Version: "1.0.12",
+      Version: "1.0.13",
       WeatherAPI: "",
       i18n: {
         baseUrl: "https://xanzhu.com",
