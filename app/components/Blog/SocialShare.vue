@@ -43,7 +43,7 @@ const socials = computed(() => [
     aria: t('share.reddit')
   },
   {
-    url: `mailto:?subject=${encodedTitle.value}&body=${encodeURIComponent(t('email.share'))}:${encodedTitle.value}`,
+    url: `mailto:?subject=${encodedTitle.value}&body=${encodeURIComponent(`${t('email.share')}: ${props.post.title}`)}`,
     icon: "line-md:email",
     aria: t('share.email')
   }
