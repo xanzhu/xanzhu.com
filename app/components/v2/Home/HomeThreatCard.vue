@@ -31,7 +31,7 @@
             {{ t('threatCard.recent.title') }}
           </h3>
         </div>
-        <ul role="list" class="space-y-3 p0">
+        <ul role="list" class="space-y-3 p0 list-none">
           <li v-for="breach in breaches" :key="breach.id"
             class="bg-yellow-4 p-3 rounded transition-all hover:bg-yellow-5 cursor-pointer border-l-4">
             <NuxtLink :to="breach.reference"
