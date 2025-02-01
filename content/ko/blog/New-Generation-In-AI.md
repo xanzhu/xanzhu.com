@@ -3,7 +3,7 @@ title: "ChatGPT: 인공 지능의 새로운 세대를 이끌다"
 description: "AI의 힘과 AI가 소프트웨어에 계속해서 영향을 미치는 방식을 살펴보세요. 우리 기사는 ChatGPT와 언어 모델에 관한 향후 솔루션과 뉴스를 다룹니다."
 date: "2023-03-27"
 tag: AI
-img: /images/blog/Gen/gptv2_s.webp
+img: /images/blog/covers/next-gen-ai-technology.webp
 toc: true
 alt: "ChatGPT 시각 디자인 Xanzhu"
 ---

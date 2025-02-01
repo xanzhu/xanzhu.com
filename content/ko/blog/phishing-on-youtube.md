@@ -1,7 +1,7 @@
 ---
 title: "사례 연구: YouTube 홈페이지의 표적 피싱 사기"
 date: "2024-01-29"
-img: "/images/blog/PS/j2-cover-2.webp"
+img: "/images/blog/covers/phishing-youtube-homepage.webp"
 description: "피싱 사기가 YouTube 홈페이지에 어떻게 홍보되어 탐지를 피하고 사용자에게 위험을 초래하는지 알아보세요."
 tag: "피싱"
 alt: "흑백 환경에서 강조된 빨간색 손을 보여주는 횡단보도 표지판 이미지"

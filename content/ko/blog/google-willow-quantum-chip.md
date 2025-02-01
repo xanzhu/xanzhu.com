@@ -3,7 +3,7 @@ title: "Willow: 양자 컴퓨팅 분야에서 Google의 획기적인 발전"
 desc: "Google의 Willow 양자 칩이 컴퓨팅의 한계를 어떻게 재편하고, 기록을 깨고, 과학적 발견을 발전시키고 있는지 알아보세요. Xanzhu에서 자세히 알아보세요."
 date: "2024-12-18"
 tag: "기술"
-img: "/images/blog/covers/willow.webp"
+img: "/images/blog/covers/willow-quantum-computing.webp"
 alt: "양자 칩과 '윌로우'라는 문구 뒤에 있는 캘리포니아 해안의 그림"
 feature: true
 ---

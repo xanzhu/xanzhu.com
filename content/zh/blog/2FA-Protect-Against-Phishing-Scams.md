@@ -2,7 +2,7 @@
 title: "2FA：防止网络钓鱼诈骗"
 date: "2023-01-31"
 tag: "安全"
-img: "/images/blog/2FA/2FA.webp"
+img: "/images/blog/covers/2fa-protect-against-scams.webp"
 description: "双因素身份验证 (2FA) 如何提高在线安全性并保护您免受网络钓鱼诈骗"
 alt: "微软认证器"
 source: "Ed Hardie, Unsplash"
