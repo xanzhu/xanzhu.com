@@ -3,7 +3,7 @@ title: "ChatGPT：引领新一代人工智能"
 description: "探索 AI 的力量及其将如何继续影响软件。 我们的文章涵盖了有关 ChatGPT 和语言模型的即将推出的解决方案和新闻。"
 date: "2023-03-27"
 tag: AI
-img: /images/blog/Gen/gptv2_s.webp
+img: /images/blog/covers/next-gen-ai-technology.webp
 toc: true
 alt: "ChatGPT视觉设计 Xanzhu"
 ---

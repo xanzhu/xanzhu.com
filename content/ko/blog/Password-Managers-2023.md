@@ -4,7 +4,7 @@ description: "개인적인 경험과 연구를 바탕으로 온라인 계정 보
 date: "2023-01-18"
 tag: "가이드"
 toc: true
-img: "/images/blog/PM/PM.webp"
+img: "/images/blog/covers/password-managers-2023.webp"
 alt: "아이폰을 들고 있는 사람"
 source: "Mikhail Nilov, Pexels"
 feature: true

@@ -4,7 +4,7 @@ description: "Explore top password managers to secure your online accounts. Find
 date: "2023-01-18"
 tag: "Guide"
 toc: true
-img: "/images/blog/PM/PM.webp"
+img: "/images/blog/covers/password-managers-2023.webp"
 alt: "Person holding iPhone"
 source: "Mikhail Nilov, Pexels"
 ---

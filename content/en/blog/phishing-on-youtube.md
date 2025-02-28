@@ -1,7 +1,7 @@
 ---
 title: "Case Study: Phishing Scam on YouTube's Home Page"
 date: "2024-01-29"
-img: "/images/blog/PS/j2-cover-2.webp"
+img: "/images/blog/covers/phishing-youtube-homepage.webp"
 description: "Explore how a phishing scam manages to promote itself to the YouTube Homepage, evading detection and posing a risk to users."
 tag: "Phishing"
 alt: "Image of a crossing walk sign showing highlighted red hand in black and white setting"

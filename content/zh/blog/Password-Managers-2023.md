@@ -4,7 +4,7 @@ description: "根据个人经验和研究发现用于保护在线帐户的最佳
 date: "2023-01-18"
 tag: "指导"
 toc: true
-img: "/images/blog/PM/PM.webp"
+img: "/images/blog/covers/password-managers-2023.webp"
 alt: "拿着iphone的人"
 source: "Mikhail Nilov, Pexels"
 feature: true

@@ -1,7 +1,7 @@
 ---
 title: "Phishing: Text Message Scams"
 description: "Text scams are a real problem, but you don't have to be a victim. This article explains how text scams work, what to avoid, and how to stay safe online."
-img: "/images/blog/sep/17723.webp"
+img: "/images/blog/covers/phishing-text-message-scams-2023.webp"
 feature: true
 date: "2023-09-04"
 tag: Safety

@@ -4,7 +4,7 @@ description: "一款全新的设备，可以省去麻烦，让您不再在科技
 tag: "Technology"
 date: "2024-01-25"
 feature: true
-img: "/images/blog/R1/cover.webp"
+img: "/images/blog/covers/rabbit-r1-hardware.webp"
 alt: "兔子R1硬件设备宣传图"
 ---
 

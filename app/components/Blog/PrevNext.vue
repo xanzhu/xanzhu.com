@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col sm:flex-row sm:justify-evenly sm:gap-10 items-center mt-10">
     <div v-if="prev" class="w-[250px]">
-      <NuxtLink :to="prev._path" :aria-label="t('Blog.previous')" rel="prev"
+      <NuxtLink :to="prev.path" :aria-label="t('Blog.previous')" rel="prev"
         class="group relative flex flex-col transition-all duration-300 no-underline">
         <div class="relative overflow-hidden rounded-lg">
           <NuxtImg :src="prev.img" height="150" width="250"
@@ -28,7 +28,7 @@
       </NuxtLink>
     </div>
     <div v-if="next" class="w-[250px]">
-      <NuxtLink :to="next._path" :aria-label="t('Blog.next')" rel="next"
+      <NuxtLink :to="next.path" :aria-label="t('Blog.next')" rel="next"
         class="group relative flex flex-col transition-all duration-300 no-underline">
         <div class="relative overflow-hidden rounded-lg">
           <NuxtImg :src="next.img" height="150" width="250"
@@ -62,13 +62,13 @@ const { t } = useI18n();
 
 interface PrevNext {
   title?: string;
-  _path: string;
-  img: string;
-  alt: string;
+  path: string;
+  img?: string;
+  alt?: string;
 }
 
 defineProps<{
-  prev?: PrevNext;
-  next?: PrevNext;
+  prev: PrevNext | null;
+  next: PrevNext | null;
 }>();
 </script>

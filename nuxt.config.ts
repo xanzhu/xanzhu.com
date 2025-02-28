@@ -24,6 +24,9 @@ export default defineNuxtConfig({
     defaultLocale: "en",
     lazy: true,
     strategy: "prefix_except_default",
+    experimental: {
+      alternateLinkCanonicalQueries: true,
+    },
     locales: [
       {
         code: "en",
@@ -77,14 +80,10 @@ export default defineNuxtConfig({
     domains: ["cdn.xanzhu.com"],
   },
 
-  content: {
-    defaultLocale: "en",
-  },
-
   // API
   runtimeConfig: {
     public: {
-      Version: "1.0.12",
+      Version: "1.0.29",
       WeatherAPI: "",
       i18n: {
         baseUrl: "https://xanzhu.com",
@@ -113,6 +112,7 @@ export default defineNuxtConfig({
           "'self'",
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
+          "'wasm-unsafe-eval'",
           "'unsafe-inline'",
           "https://*.xanzhu.com",
           "https://*.cloudflare.com",

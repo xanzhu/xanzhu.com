@@ -2,7 +2,7 @@
 title: "Apple Silicon Virtual Machine Setup 2023"
 date: "2023-01-08"
 tag: "Guide"
-img: "/images/blog/VM/vm1.webp"
+img: "/images/blog/covers/apple-vm-setup-v1.webp"
 description: "Learn setup of virtual machines on Apple Silicon using Parallels or UTM. Covering installation, configuration, and running your first virtual machine"
 alt: "Apple Silicon Chipset M1"
 toc: true
@@ -109,7 +109,7 @@ Alternatively, you can install the version listed here:
 5. Visit download the latest Windows 11 ARM file from <PageLink title="Microsoft" url="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewarm64"></PageLink>
 6. Press Browse and Select the downloaded VHDX file, ensure import VHDX is checked
 
-<Media source="/images/blog/VM/u-install.webp" alt="Installation Settings for UTM windows"></Media>
+<Media source="https://cdn.xanzhu.com/v1/m1-virtual-machine/u-install.webp" alt="Installation Settings for UTM windows"></Media>
 
 7. Press Continue
 8. Select the amount of RAM, a good rule is to use half of what you're system has ie: 8GB using 4GB
@@ -200,7 +200,6 @@ sudo reboot
 
 UTM provides a vast range of <PageLink title="pre-build virtual machines" url="https://mac.getutm.app/gallery/"></PageLink> spanning all types of operating systems. Which can work on the "Emulation" option. Lots of options and completely free to use.
 
----
 
 #### Other solutions
 

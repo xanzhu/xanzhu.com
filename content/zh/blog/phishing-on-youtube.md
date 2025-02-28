@@ -1,7 +1,7 @@
 ---
 title: "案例研究：YouTube 主页上的定向网络钓鱼诈骗"
 date: "2024-01-29"
-img: "/images/blog/PS/j2-cover-2.webp"
+img: "/images/blog/covers/phishing-youtube-homepage.webp"
 description: "探索网络钓鱼诈骗如何设法将自己推广到 YouTube 主页、逃避检测并给用户带来风险。"
 tag: "网络钓鱼"
 alt: "人行横道标志的图像，在黑白设置中显示突出显示的红手"

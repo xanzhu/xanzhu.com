@@ -3,7 +3,7 @@ title: "Rabbit R1: Hardware Meets AI"
 description: "A brand new device that takes the hassle and steps out of navigating the tech space. Less apps, more action."
 tag: "Technology"
 date: "2024-01-25"
-img: "/images/blog/R1/cover.webp"
+img: "/images/blog/covers/rabbit-r1-hardware.webp"
 feature: true
 alt: "Rabbit's R1 Hardware Device promotion image"
 ---

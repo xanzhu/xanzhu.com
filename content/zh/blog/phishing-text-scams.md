@@ -1,7 +1,7 @@
 ---
 title: "钓鱼: 短信诈骗"
 description: "短信诈骗是一个真正的问题，但您不必成为受害者。本文解释了短信诈骗的工作原理，需要避免什么，以及如何在线保持安全。"
-img: "/images/blog/sep/17723.webp"
+img: "/images/blog/covers/phishing-text-message-scams-2023.webp"
 date: "2023-09-04"
 toc: false
 tag: 安全

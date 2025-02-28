@@ -5,7 +5,7 @@ date: "2023-11-23"
 tag: "指导"
 toc: true
 feature: true
-img: "/images/blog/wvm/wvm.webp"
+img: "/images/blog/covers/apple-silicon-vm-2024.webp"
 alt: "2023 年 Macbook Pro 黑色版显示三种新芯片组的图标"
 ---
 
