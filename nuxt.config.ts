@@ -113,7 +113,7 @@ export default defineNuxtConfig({
           "'self'",
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
-          "'unsafe-eval'",
+          // "'unsafe-eval'",
           "'unsafe-inline'",
           "https://*.xanzhu.com",
           "https://*.cloudflare.com",
