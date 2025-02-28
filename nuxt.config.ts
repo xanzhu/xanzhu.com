@@ -62,7 +62,6 @@ export default defineNuxtConfig({
 
   sitemap: {
     autoI18n: true,
-    strictNuxtContentPaths: true,
     autoLastmod: true,
     xslColumns: [
       { label: "URL", width: "50%" },
@@ -172,7 +171,7 @@ export default defineNuxtConfig({
     allow: "/",
   },
 
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-02-28",
 
   // Experimental Features
   experimental: {
