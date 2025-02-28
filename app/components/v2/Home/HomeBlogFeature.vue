@@ -6,10 +6,10 @@
     </div>
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-4 justify-items-center px6 md:px25 lg:px45 md:max-w-5xl max-w-lg children:(rounded-lg core-border)">
-      <article v-for="(feature, index) in features.slice(0, 3)" :key="index"
+      <article v-for="(feature, index) in features?.slice(0, 3)" :key="index"
         class="group hover:(dark:bg-black bg-white scale-102 shadow-lg) transition ease-linear duration-300 core-theme">
         <div class="col-span-1 p-5 dark:text-white cursor-pointer">
-          <NuxtLinkLocale class="group-hover no-underline dark:text-white text-black" :to="feature._path">
+          <NuxtLinkLocale class="group-hover no-underline dark:text-white text-black" :to="feature.path">
             <span class="text-sm op-60 bg-light4 dark:bg-dark8 px4 py1 rounded-md core-border">{{
               feature.tag }}</span>
             <h3 class="text-xl font-semibold group-hover:text-primary">{{ feature.title }}</h3>
@@ -28,10 +28,10 @@
         </NuxtLink>
       </div>
 
-      <article v-for="(feature, index) in features.slice(3, 6)" :key="index"
+      <article v-for="(feature, index) in features?.slice(3, 6)" :key="index"
         class="group hover:(dark:bg-black bg-white scale-102 shadow-lg) transition ease-linear duration-300 core-theme">
         <div class="col-span-1 p-5 dark:text-white cursor-pointer">
-          <NuxtLinkLocale class="group-hover no-underline dark:text-white text-black" :to="feature._path"
+          <NuxtLinkLocale class="group-hover no-underline dark:text-white text-black" :to="feature.path"
             :aria-label="`Read more about ${feature.title}`">
             <span class="text-sm op-60 bg-light4 dark:bg-dark8 px4 py1 rounded-md core-border">{{
               feature.tag }}</span>
@@ -45,20 +45,30 @@
 </template>
 
 <script setup lang="ts">
+import type { Collections } from '@nuxt/content';
+
+const route = useRoute();
 const { locale, t } = useI18n();
 
-const { data: features, error } = await useAsyncData("feature-articles", async () => {
-  let query = locale.value !== "en" ? `${locale.value}/blog` : "/blog";
-  try {
-    return await queryContent(query)
-      .sort({ date: -1 })
-      .where({ feature: true })
-      .only(['title', 'description', 'date', 'tag', '_path'])
+const collection = computed(() => `content_${locale.value}` as keyof Collections);
+
+const { data: features } = await useAsyncData(
+  'features',
+  async () => {
+    const content = await queryCollection(collection.value)
+      .where('feature', '=', true)
+      .order('date', 'DESC')
+      .select('title', 'description', 'date', 'tag', 'path')
       .limit(5)
-      .find();
-  } catch (err) {
-    console.error("Error fetching articles:", err);
-    return [];
+      .all();
+
+    return content.map((feature) => ({
+      ...feature,
+      path: locale.value !== "en" ? `/${locale.value}/blog${feature.path}` : `/blog${feature.path}`,
+    }));
+  },
+  {
+    watch: [locale, route]
   }
-});
+);
 </script>

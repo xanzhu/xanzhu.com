@@ -1,6 +1,6 @@
 {
   "name": "xanzhu.com",
-  "version": "1.0.13",
+  "version": "1.0.20",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "2.13.4",
+    "@nuxt/content": "3.2.2",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/icon": "1.10.3",
     "@nuxt/image": "^1.9.0",
@@ -36,5 +36,10 @@
     "@unocss/preset-uno": "^65.4.3",
     "@unocss/transformer-directives": "^65.4.3",
     "@unocss/transformer-variant-group": "^65.4.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
   }
 }

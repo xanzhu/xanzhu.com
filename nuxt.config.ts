@@ -77,14 +77,14 @@ export default defineNuxtConfig({
     domains: ["cdn.xanzhu.com"],
   },
 
-  content: {
-    defaultLocale: "en",
-  },
+  // content: {
+  //   defaultLocale: "en",
+  // },
 
   // API
   runtimeConfig: {
     public: {
-      Version: "1.0.13",
+      Version: "1.0.20",
       WeatherAPI: "",
       i18n: {
         baseUrl: "https://xanzhu.com",
@@ -113,6 +113,7 @@ export default defineNuxtConfig({
           "'self'",
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
+          "'unsafe-eval'",
           "'unsafe-inline'",
           "https://*.xanzhu.com",
           "https://*.cloudflare.com",
