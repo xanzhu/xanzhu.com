@@ -13,9 +13,9 @@
       </div>
       <div class="mt10 flex flex-col items-center justify-center">
         <hr class="core-ui core-border op40 rounded-md w-80%">
-        <div v-if="post._path && post.title">
+        <div v-if="post.path && post.title">
           <h4 class="mt5 text-center font-normal text-lg op90">{{ t('share.title') }}</h4>
-          <LazyBlogSocialShare :post="{ _path: post._path, title: post.title }" />
+          <LazyBlogSocialShare :post="{ _path: post.path, title: post.title }" />
         </div>
       </div>
       <LazyBlogPrevNext :prev="prev" :next="next" />
@@ -23,14 +23,39 @@
   </main>
 </template>
 <script setup lang="ts">
-const { path } = useRoute();
+import { withLeadingSlash } from 'ufo'
+import type { Collections } from '@nuxt/content';
 const { locale, t } = useI18n();
 const config = useRuntimeConfig();
+const route = useRoute();
 
-const { data: post } = await useAsyncData(path.replace(/\/$/, "/"), async () => {
-  return await queryContent().where({ _path: path }).only(['_path', 'title', 'body', 'toc', 'description', 'img', 'date', 'tag', 'alt'])
-    .findOne();
-});
+const path = computed(() => {
+  if (route.params.slug) {
+    return withLeadingSlash(String(route.params.slug))
+  }
+  return withLeadingSlash(route.path)
+})
+
+const { data: post } = await useAsyncData(
+  'page-' + path.value,
+  async () => {
+    const collection = ('content_' + locale.value) as keyof Collections
+    try {
+      const content = await queryCollection(collection)
+        .path(path.value)
+        .select('title', 'description', 'date', 'tag', 'path', 'img', 'toc', 'body')
+        .first()
+
+      return content
+    } catch (error) {
+      console.error('Error fetching content:', error)
+      return null
+    }
+  },
+  {
+    watch: [locale, path]
+  }
+)
 
 if (!post.value) throw createError({ statusCode: 404 });
 
@@ -51,14 +76,47 @@ useSeoMeta({
   ogImage: seoImage,
 });
 
+
 const { data: prevNext } = await useAsyncData("prev-next", async () => {
-  let queryPath = locale.value !== "en" ? `${locale.value}/blog` : "/blog";
-  return await queryContent(queryPath)
-    .sort({ date: -1 })
-    .only(['_path', 'title', 'img', 'alt'])
-    .findSurround(path);
+  const collection = ('content_' + locale.value) as keyof Collections;
+
+  if (!post.value?.path) {
+    return [];
+  }
+
+  const result = await queryCollectionItemSurroundings(
+    collection,
+    post.value.path,
+    {
+      before: 1,
+      after: 1,
+      fields: ['path', 'title', 'img', 'alt']
+    }
+  ).order('date', 'DESC');
+
+  if (Array.isArray(result) && result.length > 0) {
+    return result.map(item => {
+      if (item) {
+        let fullPath = item.path;
+
+        if (locale.value !== "en" && !fullPath.startsWith(`/${locale.value}/`)) {
+          fullPath = `/${locale.value}/blog${fullPath}`;
+        } else if (!fullPath.includes('/blog/')) {
+          fullPath = `/blog${fullPath}`;
+        }
+
+        return {
+          ...item,
+          path: fullPath
+        };
+      }
+      return item;
+    });
+  }
+  return result;
+}, {
+  watch: [locale, () => post.value?.path]
 });
 
-const [prev, next] = prevNext.value || [];
-
+const [prev, next] = prevNext.value && Array.isArray(prevNext.value) && prevNext.value.length > 0 ? prevNext.value : [null, null];
 </script>

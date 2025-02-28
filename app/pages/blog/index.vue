@@ -8,8 +8,8 @@
     </div>
     <section class="grid grid-cols-1 gap-5 md:(grid-cols-2 gap-10) lg:(grid-cols-3) sm:(py-15 px-10) rounded-sm p-4"
       v-if="posts && posts.length">
-      <div v-for="article in posts" :key="article._path">
-        <NuxtLinkLocale class="group flex flex-col no-underline" :to="article._path">
+      <div v-for="article in posts" :key="article.path">
+        <NuxtLinkLocale class="group flex flex-col no-underline" :to="article.path">
           <NuxtImg crossorigin="anonymous" v-if="article.img" :alt="article.alt" :title="article.alt" loading="lazy"
             height="369" width="577" object-fit="contain" format="webp"
             class="rounded-md h-full w-full transform md:(transition duration-400 ease-in-out) md:group-hover:scale-102 b-1 b-solid dark:b-dark-700 b-light-700"
@@ -34,15 +34,29 @@
   </main>
 </template>
 <script setup lang="ts">
-const { locale, t } = useI18n();
+import type { Collections } from '@nuxt/content';
 
-const { data: posts } = await useAsyncData("articles", async () => {
-  let query = locale.value !== "en" ? `${locale.value}/blog` : "/blog";
-  return await queryContent(query)
-    .sort({ date: -1 })
-    .only(['title', 'description', 'img', 'date', 'tag', '_path', 'alt'])
-    .find();
-});
+const route = useRoute();
+const { locale, t } = useI18n();
+const collection = computed(() => `content_${locale.value}` as keyof Collections);
+
+const { data: posts } = await useAsyncData(
+  'features',
+  async () => {
+    const content = await queryCollection(collection.value)
+      .order('date', 'DESC')
+      .select('title', 'description', 'date', 'tag', 'path', 'alt', 'img')
+      .all();
+
+    return content.map((feature) => ({
+      ...feature,
+      path: locale.value !== "en" ? `/${locale.value}/blog${feature.path}` : `/blog${feature.path}`,
+    }));
+  },
+  {
+    watch: [locale, route]
+  }
+);
 
 const seoImage = 'https://images.pexels.com/photos/27277185/pexels-photo-27277185.jpeg';
 useLangMeta('Blog.meta', seoImage);
