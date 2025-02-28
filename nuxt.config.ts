@@ -171,7 +171,7 @@ export default defineNuxtConfig({
     allow: "/",
   },
 
-  compatibilityDate: "2025-02-28",
+  compatibilityDate: "2025-01-31",
 
   // Experimental Features
   experimental: {
