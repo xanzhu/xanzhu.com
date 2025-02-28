@@ -2,14 +2,14 @@
 import {
   defineConfig,
   presetTypography,
-  presetUno,
+  presetWind3,
   transformerDirectives,
   transformerVariantGroup,
 } from "unocss";
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetWind3(),
     presetTypography({
       cssExtend: {
         h1: {
@@ -70,9 +70,6 @@ export default defineConfig({
         light: "#fffffffa",
       },
     },
-    // fontFamily: {
-    //   sans: "Geist, system-ui, sans-serif",
-    // },
     fontFamily: {
       sans: "Geist-sans, system-ui, sans-serif",
     },

@@ -1,6 +1,6 @@
 {
   "name": "xanzhu.com",
-  "version": "1.0.22",
+  "version": "1.0.29",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -17,8 +17,8 @@
     "@nuxt/image": "^1.9.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/i18n": "^9.2.1",
-    "@nuxtjs/robots": "^5.2.2",
-    "@nuxtjs/sitemap": "^7.2.4",
+    "@nuxtjs/robots": "^5.2.4",
+    "@nuxtjs/sitemap": "^7.2.6",
     "chart.js": "^4.4.7",
     "nitro-cloudflare-dev": "^0.2.1",
     "nuxt": "3.15.4",
@@ -30,11 +30,11 @@
   "devDependencies": {
     "@iconify-json/fluent": "^1.2.11",
     "@iconify-json/line-md": "^1.2.5",
-    "@nuxt/devtools": "^2.0.0-beta.3",
-    "@unocss/nuxt": "^65.4.3",
-    "@unocss/preset-typography": "^65.4.3",
-    "@unocss/preset-uno": "^65.4.3",
-    "@unocss/transformer-directives": "^65.4.3",
-    "@unocss/transformer-variant-group": "^65.4.3"
+    "@nuxt/devtools": "^2.1.0",
+    "@unocss/nuxt": "^66.0.0",
+    "@unocss/preset-typography": "^66.0.0",
+    "@unocss/preset-wind3": "^66.0.0",
+    "@unocss/transformer-directives": "^66.0.0",
+    "@unocss/transformer-variant-group": "^66.0.0"
   }
 }
