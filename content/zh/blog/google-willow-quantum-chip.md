@@ -3,7 +3,7 @@ title: "Willow：谷歌在量子计算领域的突破"
 desc: "探索 Google 的 Willow 量子芯片如何重塑计算极限、打破记录并推动科学发现。更多信息请访问 Xanzhu。"
 date: "2024-12-18"
 tag: "技术"
-img: "/images/blog/covers/willow.webp"
+img: "/images/blog/covers/willow-quantum-computing.webp"
 alt: "量子芯片背后的加利福尼亚海岸插图和短语“柳树”"
 feature: true
 ---

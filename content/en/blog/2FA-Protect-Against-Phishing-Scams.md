@@ -2,7 +2,7 @@
 title: "2FA: Protect Against Phishing Scams"
 date: "2023-02-01"
 tag: "Security"
-img: "/images/blog/2FA/2FA.webp"
+img: "/images/blog/covers/2fa-protect-against-scams.webp"
 description: "How Two-Factor Authentication (2FA) improves your online security and protects you from phishing scams"
 alt: "Microsoft Authenticator"
 toc: true

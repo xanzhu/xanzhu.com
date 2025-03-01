@@ -2,7 +2,7 @@
 title: "2FA: 피싱 사기로부터 보호"
 date: "2023-01-31"
 tag: "보안"
-img: "/images/blog/2FA/2FA.webp"
+img: "/images/blog/covers/2fa-protect-against-scams.webp"
 description: "이중 인증(2FA)이 온라인 보안을 개선하고 피싱 사기로부터 보호하는 방법"
 alt: "마이크로소프트 인증자"
 source: "Ed Hardie, Unsplash"

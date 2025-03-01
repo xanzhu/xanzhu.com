@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "@nuxtjs/color-mode",
     "@nuxt/icon",
-
     "@nuxt/image",
     "nuxt-security",
     "@nuxt/fonts",
@@ -84,7 +83,7 @@ export default defineNuxtConfig({
   // API
   runtimeConfig: {
     public: {
-      Version: "1.0.12",
+      Version: "1.0.100",
       WeatherAPI: "",
       i18n: {
         baseUrl: "https://xanzhu.com",
@@ -172,7 +171,7 @@ export default defineNuxtConfig({
     allow: "/",
   },
 
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-01-31",
 
   // Experimental Features
   experimental: {

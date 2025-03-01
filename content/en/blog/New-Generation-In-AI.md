@@ -3,7 +3,7 @@ title: "ChatGPT: The Next Generation of AI Technology"
 description: "Explore the power of AI and how it will continue to influence software. Our article covers upcoming solutions and news around ChatGPT and language models."
 date: "2023-03-27"
 tag: AI
-img: /images/blog/Gen/gptv2_s.webp
+img: /images/blog/covers/next-gen-ai-technology.webp
 toc: true
 alt: "ChatGPT Visual Design Xanzhu"
 ---

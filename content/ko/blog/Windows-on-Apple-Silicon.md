@@ -5,7 +5,7 @@ date: "2023-11-23"
 tag: "가이드"
 toc: true
 feature: true
-img: "/images/blog/wvm/wvm.webp"
+img: "/images/blog/covers/apple-silicon-vm-2024.webp"
 alt: "3가지 새로운 칩셋의 아이콘을 표시하는 2023년 Macbook Pro Black Edition"
 ---
 

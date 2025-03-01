@@ -30,19 +30,16 @@ const pages = [
         path: "/resources",
         title: "Links.resources",
         description: "pageCard.tools",
-        gradient: "from-green-500/90 to-green-900",
     },
     {
         path: "/blog",
         title: "Links.blog",
         description: "pageCard.article",
-        gradient: "from-blue-500/90 to-blue-900",
     },
     {
         path: "/analysis",
         title: "Links.analysis",
         description: "pageCard.caseStudy",
-        gradient: "from-purple-500/40 to-purple-900",
     }
 ];
 </script>

@@ -4,7 +4,7 @@ description: "2023 年最佳浏览器，可改善网络体验、速度和隐私�
 date: "2023-01-24"
 updated: "2023-02-01"
 tag: 指导
-img: "/images/blog/BB/browser.webp"
+img: "/images/blog/covers/better-browser-2023.webp"
 toc: true
 source: Denny Müller, Unsplash
 alt: "流行网络浏览器的图标"

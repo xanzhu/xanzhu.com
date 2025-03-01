@@ -5,7 +5,7 @@ date: "2023-11-23"
 tag: "Guide"
 toc: true
 feature: true
-img: "/images/blog/wvm/wvm.webp"
+img: "/images/blog/covers/apple-silicon-vm-2024.webp"
 alt: "2023 Macbook Pro Black Edition displaying icons of the three new chipsets"
 ---
 

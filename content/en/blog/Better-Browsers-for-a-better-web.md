@@ -4,7 +4,7 @@ description: "2023's best browsers for improved web experience, speed and privac
 date: "2023-01-24"
 updated: "2023-02-01"
 tag: Guide
-img: "/images/blog/BB/browser.webp"
+img: "/images/blog/covers/better-browser-2023.webp"
 toc: true
 alt: "Icons of popular web browsers"
 source: Denny Müller, Unsplash

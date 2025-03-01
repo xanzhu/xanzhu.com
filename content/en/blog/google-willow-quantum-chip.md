@@ -3,7 +3,7 @@ title: "Willow: Google’s Breakthrough in Quantum Computing"
 desc: "Explore how Google’s Willow quantum chip is reshaping the limits of computing, breaking records, and advancing scientific discovery. Find out more at Xanzhu."
 date: "2024-12-18"
 tag: "Technology"
-img: "/images/blog/covers/willow.webp"
+img: "/images/blog/covers/willow-quantum-computing.webp"
 alt: "Illustration of the coast of California behind a quantum chip and the phrase willow"
 feature: true
 ---

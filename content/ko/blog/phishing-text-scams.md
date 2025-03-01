@@ -1,7 +1,7 @@
 ---
 title: "피싱: 문자 메시지 사기"
 description: "문자 메시지 사기는 실질적인 문제이지만 피해자가 될 필요는 없습니다. 이 기사에서는 문자 메시지 사기가 어떻게 작동하는지, 무엇을 피해야 하는지, 온라인에서 안전하게 지내는 방법을 설명합니다."
-img: "/images/blog/sep/17723.webp"
+img: "/images/blog/covers/phishing-text-message-scams-2023.webp"
 date: "2023-09-04"
 tag: 안전
 alt: "사람이 핸드폰을 들고 있습니다."

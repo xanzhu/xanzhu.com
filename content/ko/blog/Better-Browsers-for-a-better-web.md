@@ -4,7 +4,7 @@ description: "향상된 웹 경험, 속도 및 개인 정보 보호를 위해 20
 date: "2023-01-24"
 updated: "2023-02-01"
 tag: 가이드
-img: "/images/blog/BB/browser.webp"
+img: "/images/blog/covers/better-browser-2023.webp"
 toc: true
 source: Denny Müller, Unsplash
 alt: "인기 있는 웹 브라우저의 아이콘"

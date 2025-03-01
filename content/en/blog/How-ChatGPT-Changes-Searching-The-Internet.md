@@ -3,7 +3,7 @@ title: "The Future of Search Engines, Redfined by AI"
 description: "Uncover the potential of ChatGPT, the advanced AI language model, and how it will transform the way we search for information."
 tag: "News"
 date: "2023-02-07"
-img: "/images/blog/AI/cover-v3.webp"
+img: "/images/blog/covers/future-of-search-ai.webp"
 alt: "Logos of Bing, Google, and OpenAI"
 ---
 
