@@ -168,8 +168,7 @@ export default defineNuxtConfig({
   },
 
   robots: {
-    // Developer Build!
-    disallow: "/",
+    allow: "/",
   },
 
   compatibilityDate: "2025-01-31",
